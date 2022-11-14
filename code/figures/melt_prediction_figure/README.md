@@ -16,7 +16,7 @@ The histogram (frac_melt_plot_500.pdf): The percentage of grounded ice lower tha
 ![](melt_change_map2.png)
 
 
-![](frac_melt_plot_500.pdf)
+![](frac_melt_plot_500.png)
 
 
 

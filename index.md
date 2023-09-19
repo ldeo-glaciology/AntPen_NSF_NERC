@@ -8,7 +8,7 @@ This project is jointly funded by the UK Natural Environment Research Council (N
 The current project team (in alphabetical order):
 - Isabel Cordero, Lamont-Doherty Earth Observatory (LDEO), Columbia University, USA
 - Jeremy Ely , University of Sheffield, UK
-- Nick Frearson, LDEO, Columbia University, USA
+- Nick Frearson, (LDEO), Columbia University, USA
 - Stephen Livingstone, University of Sheffield, UK
 - Jonathan Kingslake, LDEO, Columbia University, USA
 - Andrew Sole, University of Sheffield, UK

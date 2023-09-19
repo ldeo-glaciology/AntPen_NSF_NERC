@@ -3,7 +3,7 @@
 A temporary site for hosting information about the Antarctic Peninslula project. Initially this will be for use across the team and for storing useful information (pictures, news etc.). Later we could turn this into a more public facing site.
 
 ## About the project
-This project is jointly funded by the UK Natural Environment Research Council (NERC) and the US National Science Foundation (NSF). NSF hosts a page about the project [here](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2053169). 
+This project is jointly funded by the UK Natural Environment Research Council (NERC) and the US National Science Foundation (NSF). NSF hosts a page about the project [here](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2053169). It is inspired by a paper published by the UK members of the team, ([Tuckett et al., 2019](https://doi.org/10.1038/s41467-019-12039-2)).
 
 The current project team (in alphabetical order):
 - Isabel Cordero, Lamont-Doherty Earth Observatory (LDEO), Columbia University, USA

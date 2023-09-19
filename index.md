@@ -5,8 +5,10 @@ A temporary site for hosting information about the Antarctic Peninslula project.
 ## About the project
 This project is jointly funded by the UK Natural Environment Research Council (NERC) and the US National Science Foundation (NSF). NSF hosts a page about the project [here](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2053169). 
 
-The leads of the project are (in alphabetical order):
+The current project team (in alphabetical order):
+- Isabel Cordero, Lamont-Doherty Earth Observatory, Columbia University, USA
 - Jeremy Ely , University of Sheffield, UK
+- Nick Frearson, Lamont-Doherty Earth Observatory, Columbia University, USA
 - Stephen Livingstone, University of Sheffield, UK
 - Jonathan Kingslake, Lamont-Doherty Earth Observatory, Columbia University, USA
 - Andrew Sole, University of Sheffield, UK

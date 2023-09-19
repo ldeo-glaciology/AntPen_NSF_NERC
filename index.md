@@ -19,20 +19,23 @@ The project will fund two field seasons on Flask Glacier on the Antarctic Penins
 The field plan includes:
 - Global Navigation Satellite System (GNSS) measurements of ice flow
 - Automatic weather station (AWS) measurements of surface melt
-- Uncrewed aerial vehicle (UAV) measurements of ice flow
+- Uncrewed aerial system (UAS) measurements of ice flow
 - Ice-penetrating radar measurments of ice flow
 - Passive seismic detection of subglacial water flow
 
+The preliminary field plan is shown below.
+![Flask field plan, showing preliminary plans of the locations of instrumentation](fieldwork/site_selection/flask_glacier_site_1_annotated.png)
+
 ## News 
 
-## Sep 19th 2023 
-Excited to hear that we will be getting a demo from a company called Wingtra of their vertical take off, fixed-wing uncrewed aerial vehicle (UAV) tomorrow on the Lamont campus. :rocket: :airplane: :helicopter: :airplane: :rocket:
+## Sep 19, 2023 
+Excited to hear that we will be getting a demo from a company called Wingtra of their vertical take off, fixed-wing uncrewed aerial system (UAS) tomorrow on the Lamont campus. 
 
 ## Sep 06, 2023 
 We advertised for a postdoctoral researcher to work on the project. The advert can be found [here](https://apply.interfolio.com/131480). 
 
-### August 2023
-The US side of the project kicks off! :tada: :tada: :tada:
+### Aug 2023
+The US side of the project kicks off! 
 
 
 

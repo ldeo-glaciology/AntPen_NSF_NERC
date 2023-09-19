@@ -28,10 +28,10 @@ The preliminary field plan is shown below.
 
 ## News 
 
-## Sep 19, 2023 
+### Sep 19, 2023 
 Excited to hear that we will be getting a demo from a company called Wingtra of their vertical take off, fixed-wing uncrewed aerial system (UAS) tomorrow on the Lamont campus. 
 
-## Sep 06, 2023 
+### Sep 06, 2023 
 We advertised for a postdoctoral researcher to work on the project. The advert can be found [here](https://apply.interfolio.com/131480). 
 
 ### Aug 2023

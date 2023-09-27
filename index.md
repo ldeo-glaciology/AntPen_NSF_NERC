@@ -22,13 +22,21 @@ The field plan includes:
 - Global Navigation Satellite System (GNSS) measurements of ice flow
 - Automatic weather station (AWS) measurements of surface melt
 - Uncrewed aerial system (UAS) measurements of ice flow
-- Ice-penetrating radar measurments of ice flow
+- Ice-penetrating radar measurements of ice flow
 - Passive seismic detection of subglacial water flow
 
 The preliminary field plan is shown below.
 ![Flask field plan, showing preliminary plans of the locations of instrumentation](fieldwork/site_selection/flask_glacier_site_1_annotated.png)
 
 ## News 
+
+### Sep 21, 2023
+We had Tom from Wingtra at LDEO today demonstrating their UAS. 
+
+![Wingtra on the ground in vertical take off postion](pictures/wingtra_JK.jpg)
+![Wingtra in the flight case](pictures/wingtra_NF_1.jpg)
+![Wingtra in hovering in the air under manual control, about to land](pictures/wingtra_NF_2.jpg)
+
 
 ### Sep 19, 2023 
 Excited to hear that we will be getting a demo from a company called Wingtra of their vertical take off, fixed-wing uncrewed aerial system (UAS) tomorrow on the Lamont campus. 

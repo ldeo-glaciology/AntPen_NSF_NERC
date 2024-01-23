@@ -30,6 +30,11 @@ The preliminary field plan is shown below.
 
 ## News 
 
+### Jan 23rd 2024
+The UAS has arrived! Yesterday we received the WingtraOne uncrewed aerial system. More photos to follow.
+
+![UAS in boxes in the lab](pictures/wingtra_boxes.jpg)
+
 ### Dec 15, 2023
 We advertised a Sheffiled-based postdoctoral research associate to work on the project. Details about the job and how to apply can be found [here](https://shorturl.at/lmuD3). Apologies for the incorrect closing date and typos at this link; the closing date is Monday 5th February and we anticipate interviewing for the post later in February.
 

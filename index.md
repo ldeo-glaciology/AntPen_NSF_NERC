@@ -30,6 +30,11 @@ The preliminary field plan is shown below.
 
 ## News 
 
+### Jan 23rd 2024
+The UAS has arrived! Yesterday we received the WingtraOne uncrewed aerial system. More photos to follow.
+
+![UAS in boxes in the lab](pictures/wingtra_boxes.jpg)
+
 ### Sep 21, 2023
 We had Tom from Wingtra at LDEO today demonstrating their UAS. 
 

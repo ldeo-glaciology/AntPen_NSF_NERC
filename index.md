@@ -1,6 +1,6 @@
 # NSFGEO-NERC: Investigating the Direct Influence of Meltwater on Antarctic Ice Sheet Dynamics
 
-A temporary site for hosting information about the Antarctic Peninslula project. Initially this will be for use across the team and for storing useful information (pictures, news etc.). Later we could turn this into a more public facing site.
+A temporary site for hosting information about the Antarctic Peninslula project. Initially this will be for use across the team and for storing useful information (pictures, news etc.). Later we could turn this into a more public facing site. The github reposoitory behind the site can be found [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/main/index.md). 
 
 ## About the project
 This project is jointly funded by the UK Natural Environment Research Council (NERC) and the US National Science Foundation (NSF). NSF hosts a page about the project [here](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2053169). It is inspired by a paper published by the UK members of the team, ([Tuckett et al., 2019](https://doi.org/10.1038/s41467-019-12039-2)).
@@ -14,7 +14,7 @@ The current project team (in alphabetical order):
 - Andrew Sole, University of Sheffield, UK
 - Kate Winter, Northumbria University, UK
 
-The are currently advertising for a postdoctoral researcher to work on the project. The advert can be found [here](https://apply.interfolio.com/131480).
+The are currently advertising for a postdoctoral researchers to work on the project, one at LDEO and another at Sheffield. The adverts can be found [here](https://apply.interfolio.com/131480) and [here](https://shorturl.at/lmuD3). The closing date for the Sheffield position is  Monday 5th February.
 
 The project will fund two field seasons on Flask Glacier on the Antarctic Peninsula, and continent wide remote sensing. 
 
@@ -47,7 +47,7 @@ We had Tom from Wingtra at LDEO today demonstrating their UAS.
 Excited to hear that we will be getting a demo from a company called Wingtra of their vertical take off, fixed-wing uncrewed aerial system (UAS) tomorrow on the Lamont campus. 
 
 ### Sep 06, 2023 
-We advertised for a postdoctoral researcher to work on the project. The advert can be found [here](https://apply.interfolio.com/131480). 
+We advertised for an LDEO-based postdoctoral researcher to work on the project. The advert can be found [here](https://apply.interfolio.com/131480). 
 
 ### Aug 2023
 The US side of the project kicks off! 

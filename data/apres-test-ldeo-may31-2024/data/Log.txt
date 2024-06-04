@@ -1,0 +1,488 @@
+2024-05-31-185512: Powered up and configuration file read. IsEthOn =      0
+2024-05-31-185512:  Configuration data:
+Alternate=0
+MonoTx=1
+MonoRx=1
+NSubBursts=20
+NData=0
+NSAFData=0
+Triples=0,0,0,0,0,0,0,0,0,0,0,0
+Average=0
+RepSecs=30
+CheckEthernet=1
+N_ADC_SAMPLES=40001
+MAX_DATA_FILE_LENGTH=100000000
+MAX_SAF_FILE_LENGTH=0
+ANTENNA_SELECT=0
+nAttenuators=2
+Housekeeping=1
+GPSon=60
+SyncGPS=1
+Iridium=0
+WATCHDOG_TASK_SECS=3600
+IntervalMode=0
+InterChirpDelay=50
+Attenuator1=6,10,30,30
+AFGain=-14,-4,-14,-14
+TxAnt=1,0,0,0,0,0,1677814448,0
+RxAnt=1,0,0,0,0,0,0,0
+maxDepthToGraph=3500
+SleepMode=0
+LogOn=1
+Reg00="00000008"
+Reg01="000C0820"
+Reg02="0D1F41C8"
+Reg0B="6666666633333333"
+Reg0C="000053E3000053E3"
+Reg0D="186A186A"
+Reg0E="08B5000000000000"
+SamplingFreqMode=0
+Settle_Cycles=0
+BatteryCheck=11.2,11.7
+ER_ICE=3.18
+GPS_TIMEOUT=120
+IR_NUM_RETRIES=3
+MessageTimeout=0
+2024-05-31-185515: Burst number:      0
+2024-05-31-185646: Sleep until next burst
+2024-05-31-185647: Burst number:      1
+2024-05-31-185757: Sleep until next burst
+2024-05-31-185757: Burst number:      2
+2024-05-31-185852: Sleep until next burst
+2024-05-31-185852: Burst number:      3
+2024-05-31-190157: Powered up and configuration file read. IsEthOn =      0
+2024-05-31-190157:  Configuration data:
+Alternate=0
+MonoTx=1
+MonoRx=1
+NSubBursts=2
+NData=0
+NSAFData=0
+Triples=0,0,0,0,0,0,0,0,0,0,0,0
+Average=0
+RepSecs=30
+CheckEthernet=1
+N_ADC_SAMPLES=40001
+MAX_DATA_FILE_LENGTH=100000000
+MAX_SAF_FILE_LENGTH=0
+ANTENNA_SELECT=0
+nAttenuators=2
+Housekeeping=1
+GPSon=60
+SyncGPS=1
+Iridium=0
+WATCHDOG_TASK_SECS=3600
+IntervalMode=0
+InterChirpDelay=50
+Attenuator1=6,10,30,30
+AFGain=-14,-4,-14,-14
+TxAnt=1,0,0,0,0,0,0,0
+RxAnt=1,0,0,0,0,0,0,0
+maxDepthToGraph=3500
+SleepMode=0
+LogOn=1
+Reg00="00000008"
+Reg01="000C0820"
+Reg02="0D1F41C8"
+Reg0B="6666666633333333"
+Reg0C="000053E3000053E3"
+Reg0D="186A186A"
+Reg0E="08B5000000000000"
+SamplingFreqMode=0
+Settle_Cycles=0
+BatteryCheck=11.2,11.7
+ER_ICE=3.18
+GPS_TIMEOUT=120
+IR_NUM_RETRIES=3
+MessageTimeout=0
+2024-05-31-190201: Burst number:      0
+2024-05-31-190242: Sleep until next burst
+2024-05-31-190242: Burst number:      1
+2024-05-31-190331: Sleep until next burst
+2024-05-31-190332: Burst number:      2
+2024-05-31-190343: Sleep until next burst
+2024-05-31-190344: Burst number:      3
+2024-05-31-032041: Powered up and configuration file read. IsEthOn =      0
+2024-05-31-032041:  Configuration data:
+Alternate=0
+MonoTx=1
+MonoRx=1
+NSubBursts=2
+NData=0
+NSAFData=0
+Triples=0,0,0,0,0,0,0,0,0,0,0,0
+Average=0
+RepSecs=30
+CheckEthernet=1
+N_ADC_SAMPLES=40001
+MAX_DATA_FILE_LENGTH=100000000
+MAX_SAF_FILE_LENGTH=0
+ANTENNA_SELECT=0
+nAttenuators=2
+Housekeeping=1
+GPSon=0
+SyncGPS=1
+Iridium=0
+WATCHDOG_TASK_SECS=3600
+IntervalMode=0
+InterChirpDelay=50
+Attenuator1=6,10,30,30
+AFGain=-14,-4,-14,-14
+TxAnt=1,0,0,0,0,0,0,1677814448
+RxAnt=1,0,0,0,0,0,0,0
+maxDepthToGraph=3500
+SleepMode=0
+LogOn=1
+Reg00="00000008"
+Reg01="000C0820"
+Reg02="0D1F41C8"
+Reg0B="6666666633333333"
+Reg0C="000053E3000053E3"
+Reg0D="186A186A"
+Reg0E="08B5000000000000"
+SamplingFreqMode=0
+Settle_Cycles=0
+BatteryCheck=11.2,11.7
+ER_ICE=3.18
+GPS_TIMEOUT=120
+IR_NUM_RETRIES=3
+MessageTimeout=0
+2024-05-31-032044: Burst number:      0
+2024-05-31-032052: Sleep until next burst
+2024-05-31-032106: Burst number:      1
+2024-05-31-032113: Sleep until next burst
+2024-05-31-032136: Burst number:      2
+2024-05-31-032143: Sleep until next burst
+2024-05-31-032206: Burst number:      3
+2024-05-31-032213: Sleep until next burst
+2024-05-31-032236: Burst number:      4
+2024-05-31-032243: Sleep until next burst
+2024-05-31-032306: Burst number:      5
+2024-05-31-032313: Sleep until next burst
+2024-05-31-032336: Burst number:      6
+2024-05-31-193250: Powered up and configuration file read. IsEthOn =      0
+2024-05-31-193251:  Configuration data:
+Alternate=0
+MonoTx=1
+MonoRx=1
+NSubBursts=2
+NData=0
+NSAFData=0
+Triples=0,0,0,0,0,0,0,0,0,0,0,0
+Average=0
+RepSecs=30
+CheckEthernet=1
+N_ADC_SAMPLES=40001
+MAX_DATA_FILE_LENGTH=100000000
+MAX_SAF_FILE_LENGTH=0
+ANTENNA_SELECT=0
+nAttenuators=2
+Housekeeping=1
+GPSon=0
+SyncGPS=1
+Iridium=0
+WATCHDOG_TASK_SECS=3600
+IntervalMode=0
+InterChirpDelay=50
+Attenuator1=6,10,30,30
+AFGain=-14,-4,-14,-14
+TxAnt=1,0,0,0,0,0,0,1677814448
+RxAnt=1,0,0,0,0,0,0,0
+maxDepthToGraph=3500
+SleepMode=0
+LogOn=1
+Reg00="00000008"
+Reg01="000C0820"
+Reg02="0D1F41C8"
+Reg0B="6666666633333333"
+Reg0C="000053E3000053E3"
+Reg0D="186A186A"
+Reg0E="08B5000000000000"
+SamplingFreqMode=0
+Settle_Cycles=0
+BatteryCheck=11.2,11.7
+ER_ICE=3.18
+GPS_TIMEOUT=120
+IR_NUM_RETRIES=3
+MessageTimeout=0
+2024-05-31-193254: Burst number:      0
+2024-05-31-193302: Sleep until next burst
+2024-05-31-193316: Burst number:      1
+2024-05-31-193323: Sleep until next burst
+2024-05-31-193346: Burst number:      2
+2024-05-31-193353: Sleep until next burst
+2024-05-31-193416: Burst number:      3
+2024-05-31-193423: Sleep until next burst
+2024-05-31-193446: Burst number:      4
+2024-05-31-193453: Sleep until next burst
+2024-05-31-193516: Burst number:      5
+2024-05-31-193523: Sleep until next burst
+2024-05-31-193546: Burst number:      6
+2024-05-31-193553: Sleep until next burst
+2024-05-31-193616: Burst number:      7
+2024-05-31-193623: Sleep until next burst
+2024-05-31-193646: Burst number:      8
+2024-05-31-193654: Sleep until next burst
+2024-05-31-193716: Burst number:      9
+2024-05-31-193723: Sleep until next burst
+2024-06-03-133053: Powered up and configuration file read. IsEthOn =      0
+2024-06-03-133053:  Configuration data:
+Alternate=0
+MonoTx=1
+MonoRx=1
+NSubBursts=2
+NData=0
+NSAFData=0
+Triples=0,0,0,0,0,0,0,0,0,0,0,0
+Average=0
+RepSecs=30
+CheckEthernet=1
+N_ADC_SAMPLES=40001
+MAX_DATA_FILE_LENGTH=100000000
+MAX_SAF_FILE_LENGTH=0
+ANTENNA_SELECT=0
+nAttenuators=2
+Housekeeping=1
+GPSon=0
+SyncGPS=1
+Iridium=0
+WATCHDOG_TASK_SECS=3600
+IntervalMode=0
+InterChirpDelay=50
+Attenuator1=6,10,30,30
+AFGain=-14,-4,-14,-14
+TxAnt=1,0,0,0,0,0,0,1677814448
+RxAnt=1,0,0,0,0,0,0,0
+maxDepthToGraph=3500
+SleepMode=0
+LogOn=1
+Reg00="00000008"
+Reg01="000C0820"
+Reg02="0D1F41C8"
+Reg0B="6666666633333333"
+Reg0C="000053E3000053E3"
+Reg0D="186A186A"
+Reg0E="08B5000000000000"
+SamplingFreqMode=0
+Settle_Cycles=0
+BatteryCheck=11.2,11.7
+ER_ICE=3.18
+GPS_TIMEOUT=120
+IR_NUM_RETRIES=3
+MessageTimeout=0
+2024-06-03-133056: Burst number:      0
+2024-06-03-133104: Sleep until next burst
+2024-06-03-133118: Burst number:      1
+2024-06-03-133125: Sleep until next burst
+2024-06-03-133148: Burst number:      2
+2024-06-03-133155: Sleep until next burst
+2024-06-03-133218: Burst number:      3
+2024-06-03-133225: Sleep until next burst
+2024-06-03-133248: Burst number:      4
+2024-06-03-133255: Sleep until next burst
+2024-06-03-133318: Burst number:      5
+2024-06-03-133326: Sleep until next burst
+2024-06-03-133348: Burst number:      6
+2024-06-03-133356: Sleep until next burst
+2024-06-03-133418: Burst number:      7
+2024-06-03-133425: Sleep until next burst
+2024-06-03-133448: Burst number:      8
+2024-06-03-133455: Sleep until next burst
+2024-06-03-133518: Burst number:      9
+2024-06-03-133525: Sleep until next burst
+2024-06-03-133548: Burst number:     10
+2024-06-03-133555: Sleep until next burst
+2024-06-03-133618: Burst number:     11
+2024-06-03-133625: Sleep until next burst
+2024-06-03-133648: Burst number:     12
+2024-06-03-133655: Sleep until next burst
+2024-06-03-133718: Burst number:     13
+2024-06-03-133726: Sleep until next burst
+2024-06-03-133748: Burst number:     14
+2024-06-03-133755: Sleep until next burst
+2024-06-03-133818: Burst number:     15
+2024-06-03-133825: Sleep until next burst
+2024-06-03-133848: Burst number:     16
+2024-06-03-133855: Sleep until next burst
+2024-06-03-133918: Burst number:     17
+2024-06-03-133925: Sleep until next burst
+2024-06-03-133948: Burst number:     18
+2024-06-03-133955: Sleep until next burst
+2024-06-03-134018: Burst number:     19
+2024-06-03-134025: Sleep until next burst
+2024-06-03-134048: Burst number:     20
+2024-06-03-134055: Sleep until next burst
+2024-06-03-134118: Burst number:     21
+2024-06-03-134125: Sleep until next burst
+2024-06-03-134148: Burst number:     22
+2024-06-03-134155: Sleep until next burst
+2024-06-03-134218: Burst number:     23
+2024-06-03-134225: Sleep until next burst
+2024-06-03-134248: Burst number:     24
+2024-06-03-134255: Sleep until next burst
+2024-06-03-134318: Burst number:     25
+2024-06-03-134325: Sleep until next burst
+2024-06-03-134348: Burst number:     26
+2024-06-03-134356: Sleep until next burst
+2024-06-03-134418: Burst number:     27
+2024-06-03-134425: Sleep until next burst
+2024-06-03-134448: Burst number:     28
+2024-06-03-134455: Sleep until next burst
+2024-06-03-134518: Burst number:     29
+2024-06-03-134525: Sleep until next burst
+2024-06-03-134548: Burst number:     30
+2024-06-03-134555: Sleep until next burst
+2024-06-03-134618: Burst number:     31
+2024-06-03-134625: Sleep until next burst
+2024-06-03-134648: Burst number:     32
+2024-06-03-134655: Sleep until next burst
+2024-06-03-134718: Burst number:     33
+2024-06-03-134725: Sleep until next burst
+2024-06-03-134748: Burst number:     34
+2024-06-03-134755: Sleep until next burst
+2024-06-03-134818: Burst number:     35
+2024-06-03-134825: Sleep until next burst
+2024-06-03-134848: Burst number:     36
+2024-06-03-134855: Sleep until next burst
+2024-06-03-134918: Burst number:     37
+2024-06-03-134925: Sleep until next burst
+2024-06-03-134948: Burst number:     38
+2024-06-03-134955: Sleep until next burst
+2024-06-03-135018: Burst number:     39
+2024-06-03-135026: Sleep until next burst
+2024-06-03-135048: Burst number:     40
+2024-06-03-135056: Sleep until next burst
+2024-06-03-135118: Burst number:     41
+2024-06-03-135125: Sleep until next burst
+2024-06-03-135148: Burst number:     42
+2024-06-03-135155: Sleep until next burst
+2024-06-03-135218: Burst number:     43
+2024-06-03-135225: Sleep until next burst
+2024-06-03-135248: Burst number:     44
+2024-06-03-135256: Sleep until next burst
+2024-06-03-135318: Burst number:     45
+2024-06-03-135325: Sleep until next burst
+2024-06-03-135348: Burst number:     46
+2024-06-03-135355: Sleep until next burst
+2024-06-03-135418: Burst number:     47
+2024-06-03-135425: Sleep until next burst
+2024-06-03-135448: Burst number:     48
+2024-06-03-135455: Sleep until next burst
+2024-06-03-135536: Powered up and configuration file read. IsEthOn =      0
+2024-06-03-135536:  Configuration data:
+Alternate=0
+MonoTx=1
+MonoRx=1
+NSubBursts=2
+NData=0
+NSAFData=0
+Triples=0,0,0,0,0,0,0,0,0,0,0,0
+Average=0
+RepSecs=30
+CheckEthernet=1
+N_ADC_SAMPLES=40001
+MAX_DATA_FILE_LENGTH=100000000
+MAX_SAF_FILE_LENGTH=0
+ANTENNA_SELECT=0
+nAttenuators=2
+Housekeeping=1
+GPSon=0
+SyncGPS=1
+Iridium=0
+WATCHDOG_TASK_SECS=3600
+IntervalMode=0
+InterChirpDelay=50
+Attenuator1=6,10,30,30
+AFGain=-14,-4,-14,-14
+TxAnt=1,0,0,0,0,0,0,1677814448
+RxAnt=1,0,0,0,0,0,0,0
+maxDepthToGraph=3500
+SleepMode=0
+LogOn=1
+Reg00="00000008"
+Reg01="000C0820"
+Reg02="0D1F41C8"
+Reg0B="6666666633333333"
+Reg0C="000053E3000053E3"
+Reg0D="186A186A"
+Reg0E="08B5000000000000"
+SamplingFreqMode=0
+Settle_Cycles=0
+BatteryCheck=11.2,11.7
+ER_ICE=3.18
+GPS_TIMEOUT=120
+IR_NUM_RETRIES=3
+MessageTimeout=0
+2024-06-03-135541: Burst number:      0
+2024-06-03-135549: Sleep until next burst
+2024-06-03-135601: Burst number:      1
+2024-06-03-135608: Sleep until next burst
+2024-06-03-135631: Burst number:      2
+2024-06-03-135638: Sleep until next burst
+2024-06-03-135701: Burst number:      3
+2024-06-03-135708: Sleep until next burst
+2024-06-03-175833: Powered up and configuration file read. IsEthOn =      0
+2024-06-03-175833:  Configuration data:
+Alternate=0
+MonoTx=1
+MonoRx=1
+NSubBursts=2
+NData=0
+NSAFData=0
+Triples=0,0,0,0,0,0,0,0,0,0,0,0
+Average=0
+RepSecs=30
+CheckEthernet=1
+N_ADC_SAMPLES=40001
+MAX_DATA_FILE_LENGTH=100000000
+MAX_SAF_FILE_LENGTH=0
+ANTENNA_SELECT=0
+nAttenuators=2
+Housekeeping=1
+GPSon=0
+SyncGPS=1
+Iridium=0
+WATCHDOG_TASK_SECS=3600
+IntervalMode=0
+InterChirpDelay=50
+Attenuator1=6,10,30,30
+AFGain=-14,-4,-14,-14
+TxAnt=1,0,0,0,0,0,0,1677814448
+RxAnt=1,0,0,0,0,0,0,0
+maxDepthToGraph=3500
+SleepMode=0
+LogOn=1
+Reg00="00000008"
+Reg01="000C0820"
+Reg02="0D1F41C8"
+Reg0B="6666666633333333"
+Reg0C="000053E3000053E3"
+Reg0D="186A186A"
+Reg0E="08B5000000000000"
+SamplingFreqMode=0
+Settle_Cycles=0
+BatteryCheck=11.2,11.7
+ER_ICE=3.18
+GPS_TIMEOUT=120
+IR_NUM_RETRIES=3
+MessageTimeout=0
+2024-06-03-175836: Burst number:      0
+2024-06-03-175844: Sleep until next burst
+2024-06-03-175858: Burst number:      1
+2024-06-03-175905: Sleep until next burst
+2024-06-03-175928: Burst number:      2
+2024-06-03-175935: Sleep until next burst
+2024-06-03-175958: Burst number:      3
+2024-06-03-180005: Sleep until next burst
+2024-06-03-180028: Burst number:      4
+2024-06-03-180035: Sleep until next burst
+2024-06-03-180058: Burst number:      5
+2024-06-03-180105: Sleep until next burst
+2024-06-03-180128: Burst number:      6
+2024-06-03-180135: Sleep until next burst
+2024-06-03-180158: Burst number:      7
+2024-06-03-180205: Sleep until next burst
+2024-06-03-180228: Burst number:      8
+2024-06-03-180235: Sleep until next burst
+2024-06-03-180258: Burst number:      9
+2024-06-03-180305: Sleep until next burst

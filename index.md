@@ -7,14 +7,14 @@ This project is jointly funded by the UK Natural Environment Research Council (N
 
 The current project team (in alphabetical order):
 - Isabel Cordero, Lamont-Doherty Earth Observatory (LDEO), Columbia University, USA
-- Jeremy Ely , University of Sheffield, UK
+- Ben Davison, University of Sheffield, UK
+- Jeremy Ely, University of Sheffield, UK
 - Nick Frearson, (LDEO), Columbia University, USA
-- Stephen Livingstone, University of Sheffield, UK
 - Jonathan Kingslake, LDEO, Columbia University, USA
+- Stephen Livingstone, University of Sheffield, UK
 - Andrew Sole, University of Sheffield, UK
+- Rohi Muthyala, LDEO, Columbia University, USA
 - Kate Winter, Northumbria University, UK
-
-The are currently advertising for a postdoctoral researchers to work on the project, one at LDEO and another at Sheffield. The adverts can be found [here](https://apply.interfolio.com/131480) and [here](https://shorturl.at/lmuD3). The closing date for the Sheffield position is  Monday 5th February.
 
 The project will fund two field seasons on Flask Glacier on the Antarctic Peninsula, and continent wide remote sensing. 
 
@@ -27,9 +27,36 @@ The field plan includes:
 - Passive seismic detection of subglacial water flow
 
 The preliminary field plan is shown below.
-![Flask field plan, showing preliminary plans of the locations of instrumentation](fieldwork/site_selection/flask_glacier_site_1_annotated.png)
+![Flask field plan, showing preliminary plans of the locations of instrumentation](pictures/flask_glacier_site_1_annotated.png)
 
 ## News 
+
+### Jun 13th 2024
+Rohi is in Juneau, AK, testing out one of the Wingtra UAS. Everything is going well and she has sent back some incredible footage: 
+
+![Wingtra UAS flying over a glacier](pictures/juneau/still-from-vid-1.png)
+
+### Jun 11th 2024
+Our first major shipment has successfully left Lamont! Nine individual items were palletized and shipped out this afternoon! This includes one of the Wingtra UAS, the ApRES units, a kovacs ice drill, laptops, tools. The shipment is due to arrive in Port Hueneme on Friday where it will continue its journey by ship to Punta Arenas, Chile.
+
+
+### May-June 2024
+#### Purchasing and packing!
+Led my Rohi and Isabel, we have been frantically scoping equipment, getting quotes, signing up vendors to the Columbia system, purchasing euipment and eagerly unwrapping all science toys as they arrive. We've ordered all the components of the automatic weather station (including thermistor strings and an appropriately pre-programmed logger and customized logger enclosure), tools, zarge boxes, drills, pelican cases, laptops, SD cards, hard drives, stationary, chargers, batteries, and more. Thanks to Knut Christianson at The university of Washington, we also received four ApRES units back from Antarctica. Shipping delays meant that they arrived at LDEO roughly a week before they needed to be shipped south again, but we had time to test them and trouble shoot some issues. 
+
+This photo does a pretty good job of showing the chaos that happens when your trying to unpack, test, and repack several differnt instruments in a small space
+
+![Instruments and equipment spread out on a table](pictures/testing_packing/PXL_20240605_141206542.jpg)
+
+We also purchased a new weather proof case for the Wingtra UAV:
+
+![Wingtra UAV in its new case](pictures/testing_packing/PXL_20240605_153209664.MP.jpg)
+
+### May 2024
+We are very excited to welcome Ben Davison to the project as a postdoctoral researcher based at the University of Sheffield. Ben did his PhD at Sheffield and did a PhD at Leeds before coming back to the Sheffield for this project. Ben will take part in the first Antarctic field season in Nov-Dec 2024. This completes the science side of field team: Rohi, Ben and Kate Winter. They will be joined by a BAS field assistant on Flask Glacier. 
+
+### Apr 1st 2024
+We are very excited to welcome Dr Rohi Muthyala to the project as a postdoctoral researcher based at LDEO. Rohi did her PhD at Rutgers and has many years experience working on and around the Greenland Ice Sheet. Rohi will take part in the first Antarctic field season in Nov-Dec 2024. We are so pleased to have her on board!
 
 ### Jan 24th 2024
 
@@ -44,7 +71,6 @@ The UAS arrived and Jonny went through unpacking everything and checking what's 
 The UAS has arrived! Yesterday we received the WingtraOne uncrewed aerial system. More photos to follow.
 
 ![Wingtra UAS in boxes in the lab](pictures/wingtra_boxes.jpg)
-
 
 
 ### Dec 15, 2023

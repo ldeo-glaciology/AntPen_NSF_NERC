@@ -30,7 +30,38 @@ The preliminary field plan is shown below.
 ![Flask field plan, showing preliminary plans of the locations of instrumentation](pictures/flask_glacier_site_1_annotated.png)
 
 ## News 
-### test adding a title
+### September 9th 2024 - Full team science meeting
+Today we are at the Scott Polar Research Institute in Cambridge, courtesy of a fellow Antarctic scientist, Rebecca Dell. This place is steeped in history and it is a privilege to work here and to follow in the footsteps of great Antarctic researchers that have gone before us. 
+
+![Each team member presented a different aspect of the project. Here's Andrew outlining his GNSS deployment strategy for all of us to discuss as a team](pictures/1000036670.jpg)
+
+We spent the day coming up with extremely detailed science plans, including lots of contingency plans for bad weather, or for cases where we can't get to our ideal site because of meltwater or crevasses. The meeting was fuelled by Ben's epic mint chocolate tiffin. Thanks Ben!
+
+![The whole FRAM team](pictures/PXL_20240909_144717347.MP.jpg)
+
+
+### September 5th 2024 - Pre-deployment training
+We've arrived in Cambridge for our British Antarctic Survey (BAS) pre-deployment training. It's our first time meeting as a team in person! The field team (Kate, Ben and Rohi) have lots of training to complete including: Working in Antarctica, Biosecurity, Health and Safety, Living at Rothera Research Station, BAS safety Culture and conflict management. We also need to complete remote-fieldwork specific training like crevasse rescue and roped glacier traversing.
+
+Here's a few photos from our training: 
+![The field team - Ben, Kate and Rohi](pictures/1000036529.jpg)
+
+![Lectures about life and work in Antarctica](pictures/1000036512.jpg)
+
+BAS provide all our polar clothing. We each have 18-20kg of clothing and accessories to carry south with us! This includes 3 pairs of gloves, 4 pairs of shoes, 2 sets of thermals, 2 hats, 2 jackets and the list goes on! We'll get even more when we reach Rothera! That's where they keep the big Mount Everest style down jackets and extreme polar hiking books. 
+
+![All Ben's clothing laid out on a table](pictures/1000036526.jpg)
+
+To rescue someone from a crevasse we need to learn how to stop them from falling any further (in the hope they can climb out themselves) but if they are injured then we need to set up a pulley system which will help us to pull them out of the crevasse safely.
+
+![One of our field guides, Sarah, showing us how to setup a 5:1 pulley system](pictures/1000036562.jpg)
+
+There's about 120 people at pre-deployment training and that's not even everyone going to Antarctica this year! Not everyone here will be going to Rothera, some people will be staying on the Sir David Attenborough ship and others will be going to other stations like Halley Research Station, or stations on Bird Island, Sidney, South Georgia. 
+
+![In this photo there's about 5-10 field scientists, almost everyone else is there to support the science. We couldn't conduct our research without them!](pictures/10000365685.jpg)
+
+It's all getting quite real! We can't wait to go to Antarctica.
+
 ### Jun 13th 2024
 Rohi is in Juneau, AK, testing out one of the Wingtra UAS. Everything is going well and she has sent back some incredible footage: 
 

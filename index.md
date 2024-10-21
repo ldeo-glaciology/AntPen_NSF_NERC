@@ -1,6 +1,6 @@
 # NSFGEO-NERC: Investigating the Direct Influence of Meltwater on Antarctic Ice Sheet Dynamics
 
-A temporary site for hosting information about the Antarctic Peninslula project. Initially this will be for use across the team and for storing useful information (pictures, news etc.). Later we could turn this into a more public facing site. The github reposoitory behind the site can be found [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/main/index.md). 
+A simple site for hosting information about the Antarctic Peninslula project, or use within the team and for storing useful information about the project. The github reposoitory behind the site can be found [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/main/index.md). 
 
 ## About the project
 This project is jointly funded by the UK Natural Environment Research Council (NERC) and the US National Science Foundation (NSF). NSF hosts a page about the project [here](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2053169). It is inspired by a paper published by the UK members of the team, ([Tuckett et al., 2019](https://doi.org/10.1038/s41467-019-12039-2)).
@@ -23,42 +23,54 @@ The field plan includes:
 - Automatic weather station (AWS) measurements of surface melt
 - Measurements of near surface temperatures with a thermister string
 - Uncrewed aerial system (UAS) measurements of ice flow
-- Ice-penetrating radar measurements of ice flow
+- Ice-penetrating radar measurements of ice flow (ApRES)
 - Passive seismic detection of subglacial water flow
 
 The preliminary field plan is shown below.
 ![Flask field plan, showing preliminary plans of the locations of instrumentation](pictures/flask_glacier_site_1_annotated.png)
 
+The field team for the first season is Rohi, Kate and Ben and they are scheduled to be in Antarctica between Nov 2024 and Jan 2025. 
+
 ## News 
 ### September 9th 2024 - Full team science meeting
 Today we are at the Scott Polar Research Institute in Cambridge, courtesy of a fellow Antarctic scientist, Rebecca Dell. This place is steeped in history and it is a privilege to work here and to follow in the footsteps of great Antarctic researchers that have gone before us. 
 
-![Each team member presented a different aspect of the project. Here's Andrew outlining his GNSS deployment strategy for all of us to discuss as a team](pictures/1000036670.jpg)
+Each team member presented a different aspect of the project. Here's Andrew outlining his GNSS deployment strategy for all of us to discuss as a team.
+![Each team member presented a different aspect of the project. Here's Andrew outlining his GNSS deployment strategy for all of us to discuss as a team.](pictures/cambridge-sep-24/1000036670.jpg)
 
-We spent the day coming up with extremely detailed science plans, including lots of contingency plans for bad weather, or for cases where we can't get to our ideal site because of meltwater or crevasses. The meeting was fuelled by Ben's epic mint chocolate tiffin. Thanks Ben!
+We spent the day coming up with detailed science plans, including lots of contingency plans for bad weather, or for cases where we can't get to our ideal site because of meltwater or crevasses. The meeting was fuelled by Ben's epic mint chocolate tiffin. Thanks Ben!
 
-![The whole FRAM team](pictures/PXL_20240909_144717347.MP.jpg)
+The whole FRAM team
+![The whole FRAM team](pictures//cambridge-sep-24/PXL_20240909_144717347.MP.jpg)
 
+We also met with Keith Nicholls, at BAS who gave us some incredibly useful guidance on using the radar system ApRES: 
+![ApRES training at BAS with K. Nicholls](pictures/cambridge-sep-24/PXL_20240910_100259042.jpg)
 
 ### September 5th 2024 - Pre-deployment training
 We've arrived in Cambridge for our British Antarctic Survey (BAS) pre-deployment training. It's our first time meeting as a team in person! The field team (Kate, Ben and Rohi) have lots of training to complete including: Working in Antarctica, Biosecurity, Health and Safety, Living at Rothera Research Station, BAS safety Culture and conflict management. We also need to complete remote-fieldwork specific training like crevasse rescue and roped glacier traversing.
 
 Here's a few photos from our training: 
-![The field team - Ben, Kate and Rohi](pictures/1000036529.jpg)
+The field team - Ben, Kate and Rohi
+![The field team - Ben, Kate and Rohi](pictures/cambridge-sep-24/1000036529.jpg)
 
-![Lectures about life and work in Antarctica](pictures/1000036512.jpg)
+Lectures about life and work in Antarctica
+![Lectures about life and work in Antarctica](pictures/cambridge-sep-24/1000036512.jpg)
 
 BAS provide all our polar clothing. We each have 18-20kg of clothing and accessories to carry south with us! This includes 3 pairs of gloves, 4 pairs of shoes, 2 sets of thermals, 2 hats, 2 jackets and the list goes on! We'll get even more when we reach Rothera! That's where they keep the big Mount Everest style down jackets and extreme polar hiking books. 
 
-![All Ben's clothing laid out on a table](pictures/1000036526.jpg)
+All Ben's clothing laid out on a table:
+![All Ben's clothing laid out on a table](pictures/cambridge-sep-24/1000036526.jpg)
 
 To rescue someone from a crevasse we need to learn how to stop them from falling any further (in the hope they can climb out themselves) but if they are injured then we need to set up a pulley system which will help us to pull them out of the crevasse safely.
 
-![One of our field guides, Sarah, showing us how to setup a 5:1 pulley system](pictures/1000036562.jpg)
+One of our field guides, Sarah, showing us how to setup a 5:1 pulley system:
+![One of our field guides, Sarah, showing us how to setup a 5:1 pulley system](pictures/cambridge-sep-24/1000036562.jpg)
 
 There's about 120 people at pre-deployment training and that's not even everyone going to Antarctica this year! Not everyone here will be going to Rothera, some people will be staying on the Sir David Attenborough ship and others will be going to other stations like Halley Research Station, or stations on Bird Island, Sidney, South Georgia. 
 
-![In this photo there's about 5-10 field scientists, almost everyone else is there to support the science. We couldn't conduct our research without them!](pictures/10000365685.jpg)
+In this photo there's about 5-10 field scientists, almost everyone else is there to support the science. We couldn't conduct our research without them!
+![In this photo there's about 5-10 field scientists, almost everyone else is there to support the science. We couldn't conduct our research without them!](pictures/cambridge-sep-24/1000036685.jpg)
+
 
 It's all getting quite real! We can't wait to go to Antarctica.
 

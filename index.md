@@ -1,6 +1,6 @@
 # NSFGEO-NERC: Investigating the Direct Influence of Meltwater on Antarctic Ice Sheet Dynamics
 
-A simple site for hosting information about the Antarctic Peninslula project, or use within the team and for storing useful information about the project. The github reposoitory behind the site can be found [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/main/index.md). 
+A simple site for hosting information about the project. The GitHub repository behind the site is [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/main/index.md). 
 
 ## About the project
 This project is jointly funded by the UK Natural Environment Research Council (NERC) and the US National Science Foundation (NSF). NSF hosts a page about the project [here](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2053169). It is inspired by a paper published by the UK members of the team, ([Tuckett et al., 2019](https://doi.org/10.1038/s41467-019-12039-2)).
@@ -42,7 +42,7 @@ Today we are at the Scott Polar Research Institute in Cambridge, courtesy of a f
 Each team member presented a different aspect of the project. Here's Andrew outlining his GNSS deployment strategy for all of us to discuss as a team.
 ![Each team member presented a different aspect of the project. Here's Andrew outlining his GNSS deployment strategy for all of us to discuss as a team.](pictures/cambridge-sep-24/1000036670.jpg)
 
-We spent the day coming up with detailed science plans, including lots of contingency plans for bad weather, or for cases where we can't get to our ideal site because of meltwater or crevasses. The meeting was fuelled by Ben's epic mint chocolate tiffin. Thanks Ben!
+We spent the day coming up with detailed science plans, including lots of contingency plans for bad weather, or for cases where we can't get to our ideal site because of meltwater or crevasses. The meeting was fueled by Ben's epic mint chocolate tiffin. Thanks Ben!
 
 The whole FRAM team
 ![The whole FRAM team](pictures//cambridge-sep-24/PXL_20240909_144717347.MP.jpg)
@@ -89,9 +89,9 @@ Our first major shipment has successfully left Lamont! Nine individual items wer
 
 ### May-June 2024
 #### Purchasing and packing!
-Led my Rohi and Isabel, we have been frantically scoping equipment, getting quotes, signing up vendors to the Columbia system, purchasing euipment and eagerly unwrapping all science toys as they arrive. We've ordered all the components of the automatic weather station (including thermistor strings and an appropriately pre-programmed logger and customized logger enclosure), tools, zarge boxes, drills, pelican cases, laptops, SD cards, hard drives, stationary, chargers, batteries, and more. Thanks to Knut Christianson at The university of Washington, we also received four ApRES units back from Antarctica. Shipping delays meant that they arrived at LDEO roughly a week before they needed to be shipped south again, but we had time to test them and trouble shoot some issues. 
+Led my Rohi and Isabel, we have been frantically scoping equipment, getting quotes, signing up vendors to the Columbia system, purchasing equipment and eagerly unwrapping all science toys as they arrive. We've ordered all the components of the automatic weather station (including thermistor strings and an appropriately pre-programmed logger and customized logger enclosure), tools, zarge boxes, drills, pelican cases, laptops, SD cards, hard drives, stationary, chargers, batteries, and more. Thanks to Knut Christianson at The university of Washington, we also received four ApRES units back from Antarctica. Shipping delays meant that they arrived at LDEO roughly a week before they needed to be shipped south again, but we had time to test them and trouble shoot some issues. 
 
-This photo does a pretty good job of showing the chaos that happens when your trying to unpack, test, and repack several differnt instruments in a small space
+This photo does a pretty good job of showing the chaos that happens when your trying to unpack, test, and repack several different instruments in a small space
 
 ![Instruments and equipment spread out on a table](pictures/testing_packing/PXL_20240605_141206542.jpg)
 
@@ -121,12 +121,12 @@ The UAS has arrived! Yesterday we received the WingtraOne uncrewed aerial system
 
 
 ### Dec 15, 2023
-We advertised a Sheffiled-based postdoctoral research associate to work on the project. Details about the job and how to apply can be found [here](https://shorturl.at/lmuD3). Apologies for the incorrect closing date and typos at this link; the closing date is Monday 5th February and we anticipate interviewing for the post later in February.
+We advertised a Sheffield-based postdoctoral research associate to work on the project. Details about the job and how to apply can be found [here](https://shorturl.at/lmuD3). Apologies for the incorrect closing date and typos at this link; the closing date is Monday 5th February and we anticipate interviewing for the post later in February.
 
 ### Sep 21, 2023
 We had Tom from Wingtra at LDEO today demonstrating their UAS. 
 
-![Wingtra on the ground in vertical take off postion](pictures/wingtra_JK.jpg)
+![Wingtra on the ground in vertical take off position](pictures/wingtra_JK.jpg)
 ![Wingtra in the flight case](pictures/wingtra_NF_1.jpg)
 ![Wingtra in hovering in the air under manual control, about to land](pictures/wingtra_NF_2.jpg)
 

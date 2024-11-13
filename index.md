@@ -21,7 +21,7 @@ The project will fund two field seasons on Flask Glacier on the Antarctic Penins
 The field plan includes:
 - Global Navigation Satellite System (GNSS) measurements of ice flow
 - Automatic weather station (AWS) measurements of surface melt
-- Measurements of near surface temperatures with a thermister string
+- Measurements of near surface temperatures with a thermistor string
 - Uncrewed aerial system (UAS) measurements of ice flow
 - Ice-penetrating radar measurements of ice flow (ApRES)
 - Passive seismic detection of subglacial water flow
@@ -32,6 +32,10 @@ The preliminary field plan is shown below.
 The field team for the first season is Rohi, Kate and Ben and they are scheduled to be in Antarctica between Nov 2024 and Jan 2025. 
 
 ## News 
+
+### November 13th 2024 - file team makes it to Punta Arenas, Chile
+The field team (Ben, Rohi, Kate) have made it to Punta Arenas in Chile, which is one of the main gateways to the Antarctic Peninsula. The journey from the UK to the British Antarctic Survey Rothera Research Station takes a couple of days, with 28 hours of flying time ![The field team in the hotel lobby in Punta Arenas](pictures/pa/PA_hotel_lobby.jpg)
+
 ### September 9th 2024 - Full team science meeting
 Today we are at the Scott Polar Research Institute in Cambridge, courtesy of a fellow Antarctic scientist, Rebecca Dell. This place is steeped in history and it is a privilege to work here and to follow in the footsteps of great Antarctic researchers that have gone before us. 
 

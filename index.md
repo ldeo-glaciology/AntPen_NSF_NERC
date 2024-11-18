@@ -32,8 +32,39 @@ The preliminary field plan is shown below.
 The field team for the first season is Rohi, Kate and Ben and they are scheduled to be in Antarctica between Nov 2024 and Jan 2025. 
 
 ## News 
+### November 17th 2024 - training and equipment testing at Rothera Research Station
 
-### November 13th 2024 - file team makes it to Punta Arenas, Chile
+The team have been learning how to live and work in Antarctica. These are the stoves we'll use when we're camping at Flask Glacier to melt snow for drinking and to re-hydrate our evening meals.
+
+![Stoves for melting snow and cooking](pictures/rothera/1000040967.jpg)
+
+
+This is our first cargo load for Flask Glacier. Our two field guides Sarah and Ali are going to fly in and find the best place to camp and look for some safe routes for us to get to our science sites. This is all the equipment they need for 2 weeks of camping.
+
+![First cargo load for Flask Glacier](pictures/rothera/1000040974.jpg)
+
+
+We are enjoying base life. The food at Rothera is wonderful! This was our dinner on Saturday night - burritos and nachos. Yum! The chefs at Rothera are great.
+
+![Dinner at Rothera](pictures/rothera/1000040974.jpg)
+
+Rothera Research Station. There are many buildings here - including 3 accommodation blocks, a cafeteria and leisure block, a carpenter shed, a boat shed, a building hosting science offices, a doctors surgery, a makeshift barbers and an aircraft/boating control tower and a recycling centre (amongst many other smaller buildings and shipping containers). BAS are constructing a new building too - their bright blue multipurpose 'Discovery Building' which is shortened to the Disco building down here! It looks great! Lots of people are working on the build so Rothera has lots of construction workers and construction vehicles on site at the moment. It's very busy. There will soon be 160 people on station. All the beds will be full then. 
+
+![Rothera Research Station](pictures/rothera/1000041110.jpg)
+
+Adelie Penguins next to the runway.
+![Adelie Penguins next to the runway.](pictures/rothera/1000041146.jpg)
+
+49 - We have spent most of the week unpacking boxes shipped by Isabel, Jonny and various other groups. Everything is exactly where we expected it to be thanks to Isabel's incredible organisation and packing lists. Here's a photo of Kate and Rohi setting up the weather station:
+
+![Setting up the weather station](pictures/rothera/1000041149.jpg)
+
+And finally, a team photo on the ice Adelaide Island:
+
+![Team photo on the ice](pictures/rothera/pro-xNzBmWjw.jpeg)
+
+
+### November 13th 2024 - field team makes it to Punta Arenas, Chile
 The field team (Ben, Rohi, Kate) have made it to Punta Arenas in Chile, which is one of the main gateways to the Antarctic Peninsula. The journey from the UK to the British Antarctic Survey Rothera Research Station takes a couple of days, with 28 hours of flying time ![The field team in the hotel lobby in Punta Arenas](pictures/pa/PA_hotel_lobby.jpg)
 
 The field team had quite the journey! [Here](https://youtu.be/tncRkcE_8HQ) is a Google Earth video showing their route:

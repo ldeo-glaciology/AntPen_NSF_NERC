@@ -36,7 +36,7 @@ The field team for the first season is Rohi, Kate, Ben, Ali and Sarah and they a
 ## News 
 ### November 25th 2024 - training continues at Rothera and the field guides arrive at Flask Glacier. 
 
-The field guides, Ali and Sarah, have arrived at Flask Glacier. They have been setting up camp and inspecting surface conditions to ensure the team can get around safely. Here are a few shots from the input. The plane is a BAS Twin Otter. 
+The field guides, Ali and Sarah, have arrived at Flask Glacier. They have been setting up camp and inspecting surface conditions to ensure the team can get around safely. Here are a few shots from the input. The plane is a BAS Twin Otter. Thank you to Pilot Dan for these incredible photos!
 
 ![input by twin otter to Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/1.jpeg)
 ![input by twin otter to Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/2.jpeg)

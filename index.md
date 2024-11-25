@@ -7,11 +7,13 @@ This project is jointly funded by the UK Natural Environment Research Council (N
 
 The current project team (in alphabetical order):
 - Isabel Cordero, Lamont-Doherty Earth Observatory (LDEO), Columbia University, USA
+- Sarah Crowsley, British Antarctic Survey, UK
 - Ben Davison, University of Sheffield, UK
 - Jeremy Ely, University of Sheffield, UK
 - Nick Frearson, (LDEO), Columbia University, USA
 - Jonathan Kingslake, LDEO, Columbia University, USA
 - Stephen Livingstone, University of Sheffield, UK
+- Ali Rose, British Antarctic Survey, UK
 - Andrew Sole, University of Sheffield, UK
 - Rohi Muthyala, LDEO, Columbia University, USA
 - Kate Winter, Northumbria University, UK
@@ -29,9 +31,27 @@ The field plan includes:
 The preliminary field plan is shown below.
 ![Flask field plan, showing preliminary plans of the locations of instrumentation](pictures/flask_glacier_site_1_annotated.png)
 
-The field team for the first season is Rohi, Kate and Ben and they are scheduled to be in Antarctica between Nov 2024 and Jan 2025. 
+The field team for the first season is Rohi, Kate, Ben, Ali and Sarah and they are scheduled to be in Antarctica between Nov 2024 and Jan 2025. 
 
 ## News 
+### November 25th 2024 - training continues at Rothera and the field guides arrive at Flask Glacier. 
+
+The field guides, Ali and Sarah, have arrived at Flask Glacier. They have been setting up camp and inspecting surface conditions to ensure the team can get around safely. Here are a few shots from the input. The plane is a BAS Twin Otter. 
+
+![input by twin otter to Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/1.jpeg)
+![input by twin otter to Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/2.jpeg)
+![input by twin otter to Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/3.jpeg)
+![input by twin otter to Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/4.jpeg)
+![input by twin otter to Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/5.jpeg)
+
+The other members of the Flask field team (Rohi, Kate and Ben) have been practicing their cross-country skiing. Soon they will be out on Flask Glacier, pulling their science kit behind them on pulks. It's going to be quite a physically demanding field campaign.
+
+![Cross country skiing practice](pictures/rothera/ski_trianing_BD.jpeg) 
+
+The Wingtra UAV has been tested in Antarctica for the first time too:
+
+![Wingtra UAV test flight](pictures/rothera/wingtra_testing.jpeg)
+
 ### November 17th 2024 - training and equipment testing at Rothera Research Station
 
 The team have been learning how to live and work in Antarctica. These are the stoves we'll use when we're camping at Flask Glacier to melt snow for drinking and to re-hydrate our evening meals.

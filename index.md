@@ -52,6 +52,13 @@ The Wingtra UAV has been tested in Antarctica for the first time too:
 
 ![Wingtra UAV test flight](pictures/rothera/wingtra_testing.jpeg)
 
+### November 22nd 2024 - the UAV arrives at Rothera Research Station
+Isabel and Jonny breath a sign of relief as they received the news that the UAVs got to Antarctica safely!
+
+![Wingtra UAV in boxes in the hangar at Rothera in fronnt of boxes of seismometers](pictures/rothera/boxes.jpeg)
+![Wingtra UAV setup in the hangar at Rothera](pictures/rothera/wingtra_inside.jpeg)
+
+
 ### November 17th 2024 - training and equipment testing at Rothera Research Station
 
 The team have been learning how to live and work in Antarctica. These are the stoves we'll use when we're camping at Flask Glacier to melt snow for drinking and to re-hydrate our evening meals.

@@ -34,6 +34,26 @@ The preliminary field plan is shown below.
 The field team for the first season is Rohi, Kate, Ben, Ali and Sarah and they are scheduled to be in Antarctica between Nov 2024 and Jan 2025. 
 
 ## News 
+
+### November 27th 2024 - the science team are ready for the field!
+
+The scientists on the team are all ready to go and will fly from Rothera to Flask in the next good weather window. All their science equipment is at Flask Glacier. 
+There is a great sense of achievement, getting even this far! 
+The team are poised to finally get on the ice and start making measurements!
+
+The field guides and their pilot Dan have sent back some more incredible photos from Flask Glacier. Thank you to Pilot Dan for the photos!
+
+![Camp from under the twin otter wing, looking towards the true right margin of the tributary](pictures/flask/from_GAs_on_recy_nov_24/7.jpeg)
+![View under twin otter tail looking towards main Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/8.jpeg)
+![View towards true left of tributary](pictures/flask/from_GAs_on_recy_nov_24/9.jpeg)
+![Another view under twin otter tail looking towards main Flask Glacier](pictures/flask/from_GAs_on_recy_nov_24/10.jpeg)
+![Flask Glacier from a distance, circled](pictures/flask/from_GAs_on_recy_nov_24/11.jpeg)
+![View towards true left of  with twin otter wing](pictures/flask/from_GAs_on_recy_nov_24/12.jpeg)
+
+
+
+
+
 ### November 25th 2024 - training continues at Rothera and the field guides arrive at Flask Glacier. 
 
 The field guides, Ali and Sarah, have arrived at Flask Glacier. They have been setting up camp and inspecting surface conditions to ensure the team can get around safely. Here are a few shots from the input. The plane is a BAS Twin Otter. Thank you to Pilot Dan for these incredible photos!

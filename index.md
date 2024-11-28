@@ -50,9 +50,9 @@ The field guides and their pilot Dan have sent back some more incredible photos 
 ![Flask Glacier from a distance, circled](pictures/flask/from_GAs_on_recy_nov_24/11.jpeg)
 ![View towards true left of  with twin otter wing](pictures/flask/from_GAs_on_recy_nov_24/12.jpeg)
 
+Pilot Dan also sent this panoramic video of from the camp:
 
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6IWxXebZzec?si=Hm16ssaODdaHU1W_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### November 25th 2024 - training continues at Rothera and the field guides arrive at Flask Glacier. 
 
@@ -67,6 +67,10 @@ The field guides, Ali and Sarah, have arrived at Flask Glacier. They have been s
 The other members of the Flask field team (Rohi, Kate and Ben) have been practicing their cross-country skiing. Soon they will be out on Flask Glacier, pulling their science kit behind them on pulks. It's going to be quite a physically demanding field campaign.
 
 ![Cross country skiing practice](pictures/rothera/ski_trianing_BD.jpeg) 
+
+Rohi got this incredible video over Rothera shoing the ship the Sir David Attenborough just to the south of the station. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RAEyT_tE0J4?si=ltiX35qaVUQ5-obD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The Wingtra UAV has been tested in Antarctica for the first time too:
 
@@ -115,7 +119,7 @@ And finally, a team photo on the ice Adelaide Island:
 The field team (Ben, Rohi, Kate) have made it to Punta Arenas in Chile, which is one of the main gateways to the Antarctic Peninsula. The journey from the UK to the British Antarctic Survey Rothera Research Station takes a couple of days, with 28 hours of flying time ![The field team in the hotel lobby in Punta Arenas](pictures/pa/PA_hotel_lobby.jpg)
 
 The field team had quite the journey! [Here](https://youtu.be/tncRkcE_8HQ) is a Google Earth video showing their route:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tncRkcE_8HQ?si=7QoZmhqezWEgD0IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IbpaSizAsv0?si=oy8Gb47UCLYDJwyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### September 9th 2024 - Full team science meeting
 Today we are at the Scott Polar Research Institute in Cambridge, courtesy of a fellow Antarctic scientist, Rebecca Dell. This place is steeped in history and it is a privilege to work here and to follow in the footsteps of great Antarctic researchers that have gone before us. 

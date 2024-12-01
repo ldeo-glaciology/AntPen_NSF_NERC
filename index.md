@@ -35,6 +35,21 @@ The field team for the first season is Rohi, Kate, Ben, Ali and Sarah and they a
 
 ## News 
 
+## November 30th 2024 - the science team arrive at the field camp.
+A huge moment! The science team have arrived at their field camp on Flask Glacier. Thanks again to everyone who has made this happen. 
+Now for collecting some data!
+Here are some photos from the input day:
+
+![The team in front of their camp and a Twin Otter](pictures/flask/input_day/4.jpeg)
+![Unloading a Twin Otter](pictures/flask/input_day/5.jpeg)
+![The science tent with science gear placed around it](pictures/flask/input_day/6.jpeg)
+![The whole field camp](pictures/flask/input_day/7.jpeg)
+![The twin otter that took the science team to the field](pictures/flask/input_day/8.jpeg)
+
+
+### November 30th 2024 - the science team are heading to Flask!
+![The science team are heading to Flask!](pictures/flask/on_flight_to_FG/twin_otter_to_FG.jpeg)
+
 ### November 27th 2024 - the science team are ready for the field!
 
 The scientists on the team are all ready to go and will fly from Rothera to Flask in the next good weather window. All their science equipment is at Flask Glacier. 
@@ -189,6 +204,36 @@ We are very excited to welcome Ben Davison to the project as a postdoctoral rese
 
 ### Apr 1st 2024
 We are very excited to welcome Dr Rohi Muthyala to the project as a postdoctoral researcher based at LDEO. Rohi did her PhD at Rutgers and has many years experience working on and around the Greenland Ice Sheet. Rohi will take part in the first Antarctic field season in Nov-Dec 2024. We are so pleased to have her on board!
+
+### Feb 19th 2024
+We tested one of WongtraOne UAVs for the first time on the soccer field at Lamont. 
+
+[Here](https://youtube.com/shorts/Ks6Tp9j2A2M) it is taking off:
+
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/Ks6Tp9j2A2M"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+...[flying by at speed](https://youtube.com/shorts/NNfRwn743nQ):
+
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/NNfRwn743nQ"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+...and [landing vertically](https://youtube.com/shorts/6J_gjNswOX8) like a SpaceX rocket: 
+
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/6J_gjNswOX8"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
 
 ### Jan 24th 2024
 

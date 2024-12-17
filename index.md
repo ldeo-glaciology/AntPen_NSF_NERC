@@ -18,7 +18,7 @@ The current project team (in alphabetical order):
 - Rohi Muthyala, LDEO, Columbia University, USA
 - Kate Winter, Northumbria University, UK
 
-The project will fund two field seasons on Flask Glacier on the Antarctic Peninsula, and continent wide remote sensing. 
+The project will fund three field seasons on Flask Glacier on the Antarctic Peninsula, and continent wide remote sensing. 
 
 The field plan includes:
 - Global Navigation Satellite System (GNSS) measurements of ice flow
@@ -28,14 +28,65 @@ The field plan includes:
 - Ice-penetrating radar measurements of ice flow (ApRES)
 - Passive seismic detection of subglacial water flow
 
-The preliminary field plan is shown below.
-![Flask field plan, showing preliminary plans of the locations of instrumentation](pictures/flask_glacier_site_1_annotated.png)
-
 The field team for the first season is Rohi, Kate, Ben, Ali and Sarah and they are scheduled to be in Antarctica between Nov 2024 and Jan 2025. 
 
 ## News 
 
-## November 30th 2024 - the science team arrive at the field camp.
+### December 7th 2024 
+We couldn’t have asked for better weather. We had 8 days of back to back low-winds, and roaring sunshine towards the end of our first week. In fact, it often felt too hot. We were having to apply sunscreen about once an hour, and pulk pulling in the heat was tough! Ali made us all nose guards to stop our noses from burning! 
+
+It was very interesting to watch the glacier change as the days went on. Melt pools developed, the ice around camp turned slushy and a river even formed along the shear margin of the glacier! These are the kind of summer melt events we’ve been observing in satellite data so it’s pretty cool to see the glacier responding in real time. We can’t wait to delve into our datasets to see how fast the ice is flowing, and the potential drivers of change very soon.  
+
+
+![Team](pictures/flask/from_kate/Team.JPG)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ECddm3YO4Tk?si=JokrgUnzRw-MbvNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### December 4th 2024 - great weather and lots of science. 
+
+ The winds were low so we managed to get the UAV out on day 2. After a little problem solving it was soon off on its way – taking photos along pre-determined flight paths, so that we can compare photos taken at different times to analyse change. What a relief to see the drone flying back after an hour flight! All very happy in camp today.
+
+![Wingtra UAV flying over Flask Glacier](pictures/flask/from_kate/Wingtra.JPG)
+
+We quickly got into the swing of working on the Flask Glacier. We set off in two parties most days, with Kate, Ben and a field guide setting up GNSS, ApRES and seismic stations, whilst Rohi flew the drone, or added instruments to the weather station. Getting to the GNSS rock site was an exciting adventure. We had to snowmobile to a safe site, before roping up and skiing over crevasses, pulling pulks of science kit we went. From the base of the mountain it was a steep scramble over very loose rock, and a hike up some bedrock to a super GNSS base station site. The views were terrific - when visibility allowed us to peak out onto the ice!
+
+![GNSS rock site](pictures/flask/from_kate/GNSS_rock_site.JPG)
+![GNSS base station](pictures/flask/from_kate/GNSS_base_station.JPG)
+![ApRES](pictures/flask/from_kate/ApRES.JPG)
+
+The Flask Glacier is heavily crevassed, so crevasse probing and crossing became quite an every-day occurrence, whilst getting to sites 2, 3 and 4. We counted 26 crevasses in the space of about 200 m. The best way to cross crevasses is by ski, to spread weight out over a larger area. It took us about 40 minutes to ski to the inland glacier sites. It’s quite a joy to ski in Antarctica because the scenery is just so beautiful!
+
+![Crevasse probing](pictures/flask/from_kate/Crevasse_probing.JPG)
+![Skiing Home](pictures/flask/from_kate/SkiingHome.JPG)
+
+### December 2nd 2024 - The first day on-ice science
+
+Our first morning on the ice was super – we got all our science kit tied onto sleds and snowmobiled out to site 1. It’s a very picturesque 10 minute drive down the tributary we camp on, to the margin of Flask Glacier. Rohi and Ali quickly got to work setting up the automatic weather station, whilst Kate, Ben and Sarah installed the first GNSS unit. Everything was up and running in no time, thanks largely to Sarah’s fast kovacs ice drilling skills and Ali’s expert guy rope tying!
+
+![a gnss station and a seismic station on flask glacier](pictures/flask/from_kate/Seismics.JPG)
+![a weather station on flask glacier](pictures/flask/from_kate/AWS.JPG)
+
+
+
+### December 1st 2024 - An update from the field!
+
+The field team landed on a tributary of Flask Glacier on a rather cloudy day after looping around the Larsen Ice Shelf a few times to find a good break in the clouds to land. Once at camp, the team got to work unloading the planes with the help of the pilots and field guides. Many hands made light work and everyone was soon inside, enjoying a warm cup of tea in the science/communal tent. 
+
+![creavasses on flask glacier](pictures/flask/from_kate/Crevasses_on_Flask.JPG.jpeg)
+Photo credit: Ali Rose
+
+![welcome to camp Flask](pictures/flask/from_kate/Camp.CreditAliRose.JPG)
+Photo credit: Ali Rose
+
+The camp is super! Sarah and Ali, our BAS field guides, set it all up before we arrived. We have two sleeping tents, one toilet tent, one science/communal tent and one tent to house the generator and fragile science kit. They are all set up in a line to keep entrances out of the wind, and to ensure safety in the event of an emergency – like a fire. That’s why there’s a depot of food away from camp too. Just in case! It’s where out emergency stash of fresh cheese was kept too! We were well looked after by the chefs at Rothera who sent us out with a plethora of home-cooked meals and fresh food to liven up our standard ration boxes.
+
+![tents](pictures/flask/from_kate/Tents.JPG)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IzGplPav5ec?si=KM1SgUHSi2bMHPek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+### November 30th 2024 - the science team arrive at the field camp.
 A huge moment! The science team have arrived at their field camp on Flask Glacier. Thanks again to everyone who has made this happen. 
 Now for collecting some data!
 Here are some photos from the input day:

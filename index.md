@@ -32,6 +32,26 @@ The field team for the first season is Rohi, Kate, Ben, Ali and Sarah and they a
 
 ## News 
 
+### December 16th 2024 - Antarctic Outreach
+We love working in Antarctica and want to share our knowledge and passion with as many people as possible. Kate has been working with local groups in Newcastle upon Tyne, England, and speaking to students in Scotland and Wales – telling them all about our research, and how Antarctica is changing. They have been particularly excited about the Wingtra drone, and together we have been thinking about how we programme drones, and how we can use drones to conduct more research in Antarctica.
+
+![Young children (including Kate’s son) loved learning about polar animals and our Wingtra drone.](pictures/outreach_in_UK/1000000936.jpg) 
+ Young children (including Kate’s son) loved learning about polar animals and our Wingtra drone.
+ ![building Kate a polar vehicle out of lego](pictures/outreach_in_UK/1000000918.jpg)
+ 
+ We have also been working with the UK polar network who connect school students to people working in Antarctica. Each year, school groups across the world learn about Antarctica and the Antarctic Treaty which preserves Antarctica for peaceful and scientific use. Inspired by this research, they create flags for Antarctica, as it does not have a flag of it’s own. We were very impressed by all the flags we took to Antarctica! Some of the flags we took photos of came from students in Peru! If you’d like to learn more about the Antarctic Flags Project, take a look at this website: https://polarnetwork.org/education-and-outreach/antarctica-flags/
+
+![One of our favourite Antarctic flags](pictures/outreach_in_UK/20241129_210552.jpg) 
+One of our favourite Antarctic flags
+
+[Flags from a school in Wales, where Kate sent videos telling school children all about how ice flows in Antarctica, and how Antarctica is changing in a warming world.](pictures/outreach_in_UK/20241213_151257.jpg). 
+Flags from a school in Wales, where Kate sent videos telling school children all about how ice flows in Antarctica, and how Antarctica is changing in a warming world.
+
+ One of our more unusual outreach activities that we took part in was a smell walk. Dr Kate McLean has been creating sensory maps all round the world (https://sensorymaps.com/) and was looking to add Antarctic walks to her new book. We were only to happy to help! We were surprised by just how many different smells we noted in Antarctica, when we first thought there were none (the air is really clean and fresh in Antarctica). At Rothera, the natural smells tended to come from the seals (pretty smelly) and when you are walking along the shoreline, you smell the sea, but through the salt rather than seaweed (as there isn’t really any on the shoreline). The non-natural smells come from the incredible baking when you walk past the Rothera kitchen, the smell of fresh laundry as you walk past the accommodation blocks and diesel powered machines which are building the new Discovery Building (https://www.bas.ac.uk/polar-operations/sites-and-facilities/facility/rothera/the-discovery-building/).
+
+ ![A seal chilling out on Adelaide Island ](pictures/outreach_in_UK/PB170300.JPG)
+ A seal chilling out on Adelaide Island 
+
 ### December 7th 2024 
 We couldn’t have asked for better weather. We had 8 days of back to back low-winds, and roaring sunshine towards the end of our first week. In fact, it often felt too hot. We were having to apply sunscreen about once an hour, and pulk pulling in the heat was tough! Ali made us all nose guards to stop our noses from burning! 
 

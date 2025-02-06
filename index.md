@@ -44,7 +44,7 @@ This plot shows the vertical strain rates measured in between 100m and 500m dept
 
 There is obviously a lot to explore here and this is just an initial plot, but we think this is looking pretty excting. 
 
-More plots liek this can be found [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/master/code/apres/season_1/) and there is a [jupyter notebook](Here is some intiial plots of ApRES data: https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/master/code/apres/season_1/season_1.ipynb) in that folder which loads this data and makes these plots:
+More plots liek this can be found [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/master/code/apres/season_1/) and there is a [jupyter notebook](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/master/code/apres/season_1/season_1.ipynb) in that folder which loads this data and makes these plots:
 
 ### December 16th 2024 - Antarctic Outreach
 We love working in Antarctica and want to share our knowledge and passion with as many people as possible. Kate has been working with local groups in Newcastle upon Tyne, England, and speaking to students in Scotland and Wales – telling them all about our research, and how Antarctica is changing. They have been particularly excited about the Wingtra drone, and together we have been thinking about how we programme drones, and how we can use drones to conduct more research in Antarctica.

@@ -106,7 +106,7 @@ Our first morning on the ice was super – we got all our science kit tied onto 
 
 The field team landed on a tributary of Flask Glacier on a rather cloudy day after looping around the Larsen Ice Shelf a few times to find a good break in the clouds to land. Once at camp, the team got to work unloading the planes with the help of the pilots and field guides. Many hands made light work and everyone was soon inside, enjoying a warm cup of tea in the science/communal tent. 
 
-![creavasses on flask glacier](pictures/flask/from_kate/Crevasses_on_Flask.JPG.jpeg)
+![crevasses on flask glacier](pictures/flask/from_kate/Crevasses_on_Flask.JPG)
 Photo credit: Ali Rose
 
 ![welcome to camp Flask](pictures/flask/from_kate/Camp.CreditAliRose.JPG)

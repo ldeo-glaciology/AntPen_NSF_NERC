@@ -153,3 +153,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .DS_Store
+pictures/flask/from_kate/Skiing.MOV
+pictures/flask/from_kate/Tent_creditAliRose.MOV
+pictures/flask/from_kate/Skiing.MOV
+*.mov
+*.mp4
+*.mp4

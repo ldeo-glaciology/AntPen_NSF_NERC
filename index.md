@@ -11,6 +11,7 @@ The current project team (in alphabetical order):
 - Ben Davison, University of Sheffield, UK
 - Jeremy Ely, University of Sheffield, UK
 - Nick Frearson, (LDEO), Columbia University, USA
+- Andrew Hoffman, (LDEO), Columbia University, USA
 - Jonathan Kingslake, LDEO, Columbia University, USA
 - Stephen Livingstone, University of Sheffield, UK
 - Ali Rose, British Antarctic Survey, UK

@@ -16,6 +16,7 @@ The current project team (in alphabetical order):
 - Stephen Livingstone, University of Sheffield, UK
 - Ali Rose, British Antarctic Survey, UK
 - Andrew Sole, University of Sheffield, UK
+- Sian Thorpe, University of Sheffield, UK
 - Rohi Muthyala, LDEO, Columbia University, USA
 - Kate Winter, Northumbria University, UK
 

@@ -1,5 +1,5 @@
 # NSFGEO-NERC: Investigating the Direct Influence of Meltwater on Antarctic Ice Sheet Dynamics
-
+ 
 A simple site for hosting information about the project. The GitHub repository behind the site is [here](https://github.com/ldeo-glaciology/AntPen_NSF_NERC/blob/main/index.md). 
 
 ## About the project

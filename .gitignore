@@ -159,3 +159,7 @@ pictures/flask/from_kate/Skiing.MOV
 *.mov
 *.mp4
 *.mp4
+/code/rcm/full_2km_zarr
+/code/rcm/temp_zarrs
+/code/RS_velocities/small_zarr/small_zarr.zarr
+/code/RS_velocities/small_zarr

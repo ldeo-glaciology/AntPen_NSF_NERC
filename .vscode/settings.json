@@ -1,0 +1,6 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": [],
+    "python.defaultInterpreterPath": "/Users/jkingslake/.local/share/uv/python/cpython-3.13.3-macos-aarch64-none/bin/python3.13"
+}

@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "axis": "T",
+    "calendar": "standard",
+    "long_name": "time",
+    "standard_name": "time",
+    "units": "days since 1979-01-01"
+}

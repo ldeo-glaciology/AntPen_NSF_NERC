@@ -1,0 +1,15 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "y",
+        "x"
+    ],
+    "actual_range": [
+        0.0,
+        139.5259246826172
+    ],
+    "long_name": "Downscaled 2km precip",
+    "missing_value": -1.0000000150474662e+30,
+    "standard_name": "Downscaled_2km_precip",
+    "units": "mm w.e. per day"
+}

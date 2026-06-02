@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "x"
+    ],
+    "axis": "X",
+    "long_name": "x",
+    "standard_name": "x",
+    "units": "km"
+}

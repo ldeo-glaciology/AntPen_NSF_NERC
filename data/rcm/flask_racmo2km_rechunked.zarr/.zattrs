@@ -1,0 +1,10 @@
+{
+    "CDI": "Climate Data Interface version 2.4.4 (https://mpimet.mpg.de/cdi)",
+    "CDO": "Climate Data Operators version 2.4.4 (https://mpimet.mpg.de/cdo)",
+    "Conventions": "CF-1.6",
+    "grid": "Map Projection: Antarctic Polar Stereographic EPSG3031 - Map Reference Latitude: -71.0 - Map Reference Longitude: 0.0",
+    "history": "Wed May 20 22:39:46 2026: cdo -f nc4 -z zip_5 copy ff10m/ff10m.2025_OND.BN_RACMO2.3p2_ANT27_ERA5_3h.AIS.2km.DD.nc ff10m/ff10m.2025_OND.BN_RACMO2.3p2_ANT27_ERA5_3h.AIS.2km.DD-comp.nc\nlibUN (2013.05.22) - Wed May 20 01:37:05 2026",
+    "institution": "IMAU (Brice Noel)",
+    "netcdf": "4.9.0 of Jan  4 2023 16:53:07 $",
+    "title": "Daily mean ff10m field at 2km (RACMO2.3p2 ANT27 ERA)"
+}

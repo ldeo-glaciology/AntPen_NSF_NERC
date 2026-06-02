@@ -1,0 +1,15 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "y",
+        "x"
+    ],
+    "actual_range": [
+        0.0,
+        510.56829833984375
+    ],
+    "long_name": "Downscaled 2km t2m",
+    "missing_value": -1.0000000150474662e+30,
+    "standard_name": "Downscaled_2km_t2m",
+    "units": "mm w.e. per day"
+}

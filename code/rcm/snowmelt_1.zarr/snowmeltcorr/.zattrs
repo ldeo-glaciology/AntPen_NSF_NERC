@@ -1,0 +1,20 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "y",
+        "x"
+    ],
+    "actual_range": [
+        0.0,
+        19.795740127563477
+    ],
+    "grid": "Map Projection: Antarctic Polar Stereographic EPSG3031 - Map Reference Latitude: -71.0 - Map Reference Longitude: 0.0",
+    "history": "libUN (2013.05.22) - Sat Dec 11 10:31:43 2021",
+    "institution": "IMAU (Brice Noel)",
+    "long_name": "Downscaled 2km snowmelt",
+    "missing_value": -1.0000000150474662e+30,
+    "netcdf": "4.7.4 of Apr 18 2020 10:56:44 $",
+    "standard_name": "Downscaled_2km_snowmelt",
+    "title": "Daily mean snowmelt field at 2km (RACMO2.3p2) ERA",
+    "units": "mm w.e. per day"
+}

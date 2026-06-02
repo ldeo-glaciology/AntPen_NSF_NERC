@@ -1,0 +1,262 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "CDI": "Climate Data Interface version 2.4.4 (https://mpimet.mpg.de/cdi)",
+            "CDO": "Climate Data Operators version 2.4.4 (https://mpimet.mpg.de/cdo)",
+            "Conventions": "CF-1.6",
+            "grid": "Map Projection: Antarctic Polar Stereographic EPSG3031 - Map Reference Latitude: -71.0 - Map Reference Longitude: 0.0",
+            "history": "Wed May 20 22:39:46 2026: cdo -f nc4 -z zip_5 copy ff10m/ff10m.2025_OND.BN_RACMO2.3p2_ANT27_ERA5_3h.AIS.2km.DD.nc ff10m/ff10m.2025_OND.BN_RACMO2.3p2_ANT27_ERA5_3h.AIS.2km.DD-comp.nc\nlibUN (2013.05.22) - Wed May 20 01:37:05 2026",
+            "institution": "IMAU (Brice Noel)",
+            "netcdf": "4.9.0 of Jan  4 2023 16:53:07 $",
+            "title": "Daily mean ff10m field at 2km (RACMO2.3p2 ANT27 ERA)"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "ff10mcorr/.zarray": {
+            "chunks": [
+                17167,
+                12,
+                18
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": -1.0000000150474662e+30,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                17167,
+                12,
+                18
+            ],
+            "zarr_format": 2
+        },
+        "ff10mcorr/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "y",
+                "x"
+            ],
+            "actual_range": [
+                0.0,
+                48.582374572753906
+            ],
+            "long_name": "Downscaled 2km ff10m",
+            "missing_value": -1.0000000150474662e+30,
+            "standard_name": "Downscaled_2km_ff10m",
+            "units": "mm w.e. per day"
+        },
+        "precipcorr/.zarray": {
+            "chunks": [
+                17167,
+                12,
+                18
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": -1.0000000150474662e+30,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                17167,
+                12,
+                18
+            ],
+            "zarr_format": 2
+        },
+        "precipcorr/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "y",
+                "x"
+            ],
+            "actual_range": [
+                0.0,
+                139.5259246826172
+            ],
+            "long_name": "Downscaled 2km precip",
+            "missing_value": -1.0000000150474662e+30,
+            "standard_name": "Downscaled_2km_precip",
+            "units": "mm w.e. per day"
+        },
+        "snowmeltcorr/.zarray": {
+            "chunks": [
+                17167,
+                12,
+                18
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": -1.0000000150474662e+30,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                17167,
+                12,
+                18
+            ],
+            "zarr_format": 2
+        },
+        "snowmeltcorr/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "y",
+                "x"
+            ],
+            "actual_range": [
+                0.0,
+                291.7160949707031
+            ],
+            "long_name": "Downscaled 2km snowmelt",
+            "missing_value": -1.0000000150474662e+30,
+            "standard_name": "Downscaled_2km_snowmelt",
+            "units": "mm w.e. per day"
+        },
+        "t2mcorr/.zarray": {
+            "chunks": [
+                17167,
+                12,
+                18
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": -1.0000000150474662e+30,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                17167,
+                12,
+                18
+            ],
+            "zarr_format": 2
+        },
+        "t2mcorr/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "y",
+                "x"
+            ],
+            "actual_range": [
+                0.0,
+                510.56829833984375
+            ],
+            "long_name": "Downscaled 2km t2m",
+            "missing_value": -1.0000000150474662e+30,
+            "standard_name": "Downscaled_2km_t2m",
+            "units": "mm w.e. per day"
+        },
+        "time/.zarray": {
+            "chunks": [
+                90
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                17167
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "axis": "T",
+            "calendar": "standard",
+            "long_name": "time",
+            "standard_name": "time",
+            "units": "days since 1979-01-01"
+        },
+        "x/.zarray": {
+            "chunks": [
+                2778
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                18
+            ],
+            "zarr_format": 2
+        },
+        "x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ],
+            "axis": "X",
+            "long_name": "x",
+            "standard_name": "x",
+            "units": "km"
+        },
+        "y/.zarray": {
+            "chunks": [
+                2303
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12
+            ],
+            "zarr_format": 2
+        },
+        "y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ],
+            "axis": "Y",
+            "long_name": "y",
+            "standard_name": "y",
+            "units": "km"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

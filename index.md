@@ -34,6 +34,15 @@ The field team for the first season is Rohi, Kate, Ben, Ali and Sarah and they a
 
 ## News 
 
+### June 23rd 2025 - Introducing our Season 2 field team
+We are well underway with our planning for field season 2. Jonny, Rohi, Isabel and Andrew have been busy purchasing, packing and freighting lots of new equipment so that we'll have everything we need when we arrive at Rothera in November. This year we have some fab new field team members. Sian Thorpe and Andrew Hoffman will Join Rohi Muthyala on the ice this year, to check up and service our over-wintering kit, re-fly drone survey grids and deploy some new GNSS, ApRES and seismic sensors on Flask Glacier.
+
+Like Rohi, Andrew is a post-doctoral research scientist at Lamont-Doherty Earth Observatory. He has lots of polar field experience, but is looking forward to his first field season on the Antarctic Peninsula. Sian is a PhD student at the University of Sheffield, where she is using seismic techniques to monitor water flow through the Greenland Ice Sheet. Sian will be in Greenland in August, and Antarctica in November. What an experience!
+
+![Andrew Hoffman (right)](pictures/AndrewH.HEIC) 
+
+![Sian Thorpe](pictures/Sian.jpg)
+
 ### January 30th 2025 - getting started on data analysis
 
 Very exciting! We are taking our first look at the data collected on Flask. 

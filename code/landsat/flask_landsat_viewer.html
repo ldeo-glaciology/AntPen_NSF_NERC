@@ -158,6 +158,7 @@ kbd { font: inherit; color: var(--fg); }
 
     <fieldset>
       <legend>Keep</legend>
+      <button class="btn wide" id="download" hidden>Download GeoTIFF</button>
       <button class="btn wide" id="copypath" hidden>Copy COG paths for QGIS</button>
       <button class="btn wide" id="copyflags">Copy flagged scene IDs</button>
       <textarea id="copyout" hidden readonly aria-label="Text to copy"></textarea>
@@ -386,6 +387,7 @@ kbd { font: inherit; color: var(--fg); }
   function renderMeta(scene) {
     if (!scene) {
       $("date").textContent = "—"; $("time").textContent = ""; $("facts").textContent = ""; $("pills").textContent = ""; $("sceneid").textContent = "";
+      labelDownload();
       return;
     }
     $("date").textContent = scene.datetime.slice(0, 10);
@@ -424,6 +426,8 @@ kbd { font: inherit; color: var(--fg); }
     $("sceneid").textContent = scene.id;
     $("flag").setAttribute("aria-pressed", String(S.flags.has(scene.id)));
     $("copypath").hidden = !S.index.cogs_available;
+    $("download").hidden = !S.index.cogs_available;
+    labelDownload();
     $("stage").setAttribute("aria-label", `${scene.sensor} scene from ${scene.datetime.slice(0, 10)}`);
   }
 
@@ -537,8 +541,153 @@ kbd { font: inherit; color: var(--fg); }
     }
   }
 
+  /* ---------- GeoTIFF download ---------- */
+  const GEOTIFF_JS = "https://cdn.jsdelivr.net/npm/geotiff@2.1.3/dist-browser/geotiff.js";
+  const GEOTIFF_JS_INTEGRITY = "sha384-m5adk5PRgt3JjiYbYoG8oXxc3EgRFKc1aCBgKzyxqxnbYpdiAMlHkR0gVDp03Q/H";
+  const cogPath = (scene, band) => `${scene.id}/${scene.id}_${band}.tif`;
+
+  function labelDownload() {
+    const button = $("download"), scene = S.list[S.pos];
+    if (S.downloadNote) { button.textContent = S.downloadNote; return; }
+    if (!scene) { button.textContent = "Download GeoTIFF"; return; }
+    const name = imageName(scene);
+    const what = name !== "rgb" ? name : scene.composite.includes("blue") ? "RGB" : scene.composite.join("/");
+    button.textContent = `Download ${what} GeoTIFF`;
+  }
+  function noteDownload(text, seconds) {
+    S.downloadNote = text;
+    labelDownload();
+    clearTimeout(S.downloadTimer);
+    if (seconds) S.downloadTimer = setTimeout(() => { S.downloadNote = null; labelDownload(); }, seconds * 1000);
+  }
+  function saveAs(href, filename) {
+    const link = document.createElement("a");
+    link.href = href;
+    link.download = filename;
+    document.body.append(link);
+    link.click();
+    link.remove();
+  }
+
+  // The library is only needed to read COGs for an RGB download, so it loads on the first one
+  function loadGeotiffLibrary() {
+    S.geotiffLibrary ||= new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = GEOTIFF_JS;
+      script.integrity = GEOTIFF_JS_INTEGRITY;
+      script.crossOrigin = "anonymous";
+      script.onload = () => resolve(window.GeoTIFF);
+      script.onerror = () => { S.geotiffLibrary = null; script.remove(); reject(new Error("the GeoTIFF library didn't load")); };
+      document.head.append(script);
+    });
+    return S.geotiffLibrary;
+  }
+  async function readCog(library, path) {
+    const response = await fetch(path);
+    if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+    const image = await (await library.fromArrayBuffer(await response.arrayBuffer())).getImage(0);
+    const [values] = await image.readRasters();
+    return {
+      values, width: image.getWidth(), height: image.getHeight(), nodata: image.getGDALNoData(),
+      origin: image.getOrigin(), resolution: image.getResolution(),
+      // Landsat COGs tie their origin to pixel centres, so this has to travel with the origin
+      rasterType: image.getGeoKeys().GTRasterTypeGeoKey ?? 1,
+    };
+  }
+
+  // A one-strip, uncompressed, little-endian GeoTIFF holding the bands exactly as stored, pixel-interleaved
+  function writeGeotiff(bands, names, epsg) {
+    const { values, width, height, nodata, origin, resolution, rasterType } = bands[0];
+    const Pixels = values.constructor, nBands = bands.length, nValues = width * height * nBands;
+    if (Pixels !== Uint8Array && Pixels !== Uint16Array) throw new Error(`unexpected data type ${Pixels.name}`);
+    const descriptions = names.map((name, i) => `<Item name="DESCRIPTION" sample="${i}" role="description">${name}</Item>`).join("");
+    const ascii = (text) => [...text].map((c) => c.charCodeAt(0)).concat(0);
+    const SIZES = { 2: 1, 3: 2, 4: 4, 12: 8 };
+    const ASCII = 2, SHORT = 3, LONG = 4, DOUBLE = 12;
+    const bytes = nValues * Pixels.BYTES_PER_ELEMENT;
+    const tags = [
+      [256, LONG, [width]],
+      [257, LONG, [height]],
+      [258, SHORT, Array(nBands).fill(Pixels.BYTES_PER_ELEMENT * 8)],
+      [259, SHORT, [1]],
+      [262, SHORT, [2]],
+      [273, LONG, [0]],
+      [277, SHORT, [nBands]],
+      [278, LONG, [height]],
+      [279, LONG, [bytes]],
+      [284, SHORT, [1]],
+      [339, SHORT, Array(nBands).fill(1)],
+      [33550, DOUBLE, [resolution[0], Math.abs(resolution[1]), 0]],
+      [33922, DOUBLE, [0, 0, 0, origin[0], origin[1], 0]],
+      [34735, SHORT, [1, 1, 0, 3, 1024, 0, 1, 1, 1025, 0, 1, rasterType, 3072, 0, 1, epsg]],
+      [42112, ASCII, ascii(`<GDALMetadata>${descriptions}</GDALMetadata>`)],
+    ];
+    if (nodata !== null) tags.push([42113, ASCII, ascii(String(nodata))]);
+
+    // Values too long for their directory entry follow the directory, each on an 8-byte boundary, then the pixels
+    const align = (offset) => (offset + 7) & ~7;
+    let end = align(8 + 2 + tags.length * 12 + 4);
+    const placed = tags.map(([, type, list]) => {
+      const size = SIZES[type] * list.length;
+      if (size <= 4) return null;
+      const at = end;
+      end = align(end + size);
+      return at;
+    });
+    tags[5][2] = [end];
+
+    const buffer = new ArrayBuffer(end + bytes), view = new DataView(buffer);
+    view.setUint16(0, 0x4949, true);
+    view.setUint16(2, 42, true);
+    view.setUint32(4, 8, true);
+    view.setUint16(8, tags.length, true);
+    const put = { 2: "setUint8", 3: "setUint16", 4: "setUint32", 12: "setFloat64" };
+    tags.forEach(([code, type, list], i) => {
+      const entry = 10 + i * 12, size = SIZES[type];
+      view.setUint16(entry, code, true);
+      view.setUint16(entry + 2, type, true);
+      view.setUint32(entry + 4, list.length, true);
+      if (placed[i] !== null) view.setUint32(entry + 8, placed[i], true);
+      const start = placed[i] ?? entry + 8;
+      list.forEach((value, j) => view[put[type]](start + j * size, value, true));
+    });
+    const pixels = new Pixels(buffer, end, nValues);
+    bands.forEach((band, b) => {
+      for (let i = 0; i < band.values.length; i++) pixels[i * nBands + b] = band.values[i];
+    });
+    return buffer;
+  }
+
+  async function buildComposite(scene) {
+    const library = await loadGeotiffLibrary();
+    const bands = await Promise.all(scene.composite.map((band) => readCog(library, cogPath(scene, band))));
+    const grid = ({ values, width, height, nodata, origin, resolution, rasterType }) => JSON.stringify([values.constructor.name, width, height, nodata, origin, resolution, rasterType]);
+    if (new Set(bands.map(grid)).size > 1) throw new Error("the three bands don't share a grid");
+    return writeGeotiff(bands, scene.composite, Number(S.index.crs.split(":")[1]));
+  }
+
+  async function download() {
+    const scene = S.list[S.pos];
+    if (!scene || S.downloading) return;
+    const name = imageName(scene);
+    if (name !== "rgb") { saveAs(cogPath(scene, name), `${scene.id}_${name}.tif`); return; }
+    S.downloading = true;
+    noteDownload("Preparing GeoTIFF…");
+    try {
+      const url = URL.createObjectURL(new Blob([await buildComposite(scene)], { type: "image/tiff" }));
+      saveAs(url, `${scene.id}_${scene.composite.join("_")}.tif`);
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      noteDownload(null);
+    } catch (error) {
+      console.error("GeoTIFF download failed:", error);
+      noteDownload("Download failed, try again", 3);
+    }
+    S.downloading = false;
+  }
+
   /* ---------- wiring ---------- */
   function wire() {
+    $("download").onclick = download;
     $("prev").onclick = () => step(-1);
     $("next").onclick = () => step(1);
     $("play").onclick = togglePlay;
@@ -563,7 +712,7 @@ kbd { font: inherit; color: var(--fg); }
       const s = S.list[S.pos];
       if (!s) return;
       const name = imageName(s), base = location.href.split("#")[0];
-      const paths = (name === "rgb" ? s.composite : [name]).map((band) => `/vsicurl/${new URL(`${s.id}/${s.id}_${band}.tif`, base)}`);
+      const paths = (name === "rgb" ? s.composite : [name]).map((band) => `/vsicurl/${new URL(cogPath(s, band), base)}`);
       copyText(paths.join("\n"), e.target, "Copied");
     };
 

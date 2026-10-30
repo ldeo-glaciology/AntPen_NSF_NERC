@@ -140,6 +140,7 @@ kbd { font: inherit; color: var(--fg); }
 
     <fieldset>
       <legend>Show</legend>
+      <label class="row">Image <select id="band"></select></label>
       <div class="chips" id="sensors"></div>
       <label class="row">Cloud at most <input type="range" id="cloud" min="0" max="100" step="5" value="100"><span class="value" id="cloudval">any</span></label>
       <label class="row">Sun above <input type="range" id="sun" min="-30" max="30" step="1" value="0"><span class="value" id="sunval">0°</span></label>
@@ -157,12 +158,12 @@ kbd { font: inherit; color: var(--fg); }
 
     <fieldset>
       <legend>Keep</legend>
-      <button class="btn wide" id="copypath" hidden>Copy QGIS path for this scene</button>
+      <button class="btn wide" id="copypath" hidden>Copy COG paths for QGIS</button>
       <button class="btn wide" id="copyflags">Copy flagged scene IDs</button>
       <textarea id="copyout" hidden readonly aria-label="Text to copy"></textarea>
     </fieldset>
 
-    <div id="keys"><kbd>←</kbd> <kbd>→</kbd> step · <kbd>shift</kbd> ×10 · <kbd>space</kbd> play<br><kbd>f</kbd> flag · <kbd>o</kbd> outline · <kbd>0</kbd> fit · scroll to zoom</div>
+    <div id="keys"><kbd>←</kbd> <kbd>→</kbd> step · <kbd>shift</kbd> ×10 · <kbd>space</kbd> play<br><kbd>b</kbd> next band · <kbd>f</kbd> flag · <kbd>o</kbd> outline<br><kbd>0</kbd> fit · scroll to zoom</div>
   </aside>
 </div>
 
@@ -174,6 +175,7 @@ kbd { font: inherit; color: var(--fg); }
   const SENSOR_ORDER = ["MSS", "TM", "ETM+", "OLI"];
   const PRELOAD_AHEAD = 14, PRELOAD_BEHIND = 4, KEEP_RANGE = 40, MAX_LOADS = 6;
   const SLC_FAILURE = Date.UTC(2003, 4, 31);
+  const BAND_ORDER = ["coastal", "blue", "green", "red", "nir08", "nir09", "swir16", "swir22", "pan", "cirrus", "lwir", "lwir_high", "lwir11", "lwir12"];
 
   const store = {
     get() { try { return JSON.parse(localStorage.getItem("flask-landsat-flags") || "[]"); } catch { return []; } },
@@ -182,26 +184,30 @@ kbd { font: inherit; color: var(--fg); }
 
   const S = {
     index: null, all: [], list: [], pos: 0, flags: new Set(store.get()),
-    sensors: new Set(SENSOR_ORDER), playing: false, outline: true,
+    sensors: new Set(SENSOR_ORDER), band: "rgb", playing: false, outline: true,
     zoom: 1, cx: 0, cy: 0, shown: null, cache: new Map(), loading: 0, queue: [], lastStep: 0, dir: 1,
   };
 
   /* ---------- images ---------- */
+  // RGB mode keeps every scene in the record, using the scene's best single band if it has no composite
+  const imageName = (scene) => (S.band !== "rgb" ? S.band : scene.images.rgb ? "rgb" : scene.default);
+  const imageKey = (scene) => `${imageName(scene)}/${scene.id}`;
   function load(scene) {
-    let hit = S.cache.get(scene.id);
+    const key = imageKey(scene);
+    let hit = S.cache.get(key);
     if (hit) return hit;
-    hit = { img: new Image(), ready: false };
+    hit = { img: new Image(), ready: false, info: scene.images[imageName(scene)] };
     hit.promise = new Promise((resolve) => { hit.resolve = resolve; });
-    S.cache.set(scene.id, hit);
-    S.queue.push([scene, hit]);
+    S.cache.set(key, hit);
+    S.queue.push([key, hit]);
     pump();
     return hit;
   }
   function pump() {
     while (S.loading < MAX_LOADS && S.queue.length) {
-      const [scene, hit] = S.queue.shift();
+      const [key, hit] = S.queue.shift();
       S.loading++;
-      hit.img.src = scene.file;
+      hit.img.src = `browse/${key}.webp`;
       hit.img.decode().then(() => { hit.ready = true; }, () => { hit.failed = true; }).finally(() => {
         S.loading--; hit.resolve(); pump();
       });
@@ -210,14 +216,14 @@ kbd { font: inherit; color: var(--fg); }
   function preload() {
     const near = new Set();
     S.queue.length = 0; // nearby scenes matter more than anything already waiting
-    for (const [id, hit] of S.cache) if (!hit.ready && !hit.failed && !hit.img.src) S.cache.delete(id);
+    for (const [key, hit] of S.cache) if (!hit.ready && !hit.failed && !hit.img.src) S.cache.delete(key);
     for (let i = 0; i <= PRELOAD_AHEAD; i++) {
       const ahead = S.list[S.pos + i * S.dir];
       if (ahead) load(ahead);
       if (i && i <= PRELOAD_BEHIND) { const back = S.list[S.pos - i * S.dir]; if (back) load(back); }
     }
-    for (let i = -KEEP_RANGE; i <= KEEP_RANGE; i++) { const s = S.list[S.pos + i]; if (s) near.add(s.id); }
-    for (const id of S.cache.keys()) if (!near.has(id) && S.cache.size > KEEP_RANGE * 2) S.cache.delete(id);
+    for (let i = -KEEP_RANGE; i <= KEEP_RANGE; i++) { const s = S.list[S.pos + i]; if (s) near.add(imageKey(s)); }
+    for (const key of S.cache.keys()) if (!near.has(key) && S.cache.size > KEEP_RANGE * 2) S.cache.delete(key);
   }
 
   /* ---------- map geometry ---------- */
@@ -259,14 +265,15 @@ kbd { font: inherit; color: var(--fg); }
     ctx.fillRect(0, 0, view.width, view.height);
 
     const scene = S.list[S.pos];
-    const hit = scene && S.cache.get(scene.id);
-    if (hit && hit.ready) S.shown = { scene, img: hit.img };
+    const hit = scene && S.cache.get(imageKey(scene));
+    if (hit && hit.ready) S.shown = hit;
+    if (hit && hit.failed) S.shown = null; // better a gap than an image the readout doesn't describe
     $("loading").hidden = !scene || !!(hit && (hit.ready || hit.failed));
 
     if (S.shown) {
-      const [x0, y0, x1, y1] = S.shown.scene.bounds;
+      const [x0, y0, x1, y1] = S.shown.info.bounds;
       const [ax, ay] = toScreen(x0, y1), [bx, by] = toScreen(x1, y0);
-      const pixelsPerCell = scale() * S.shown.scene.res;
+      const pixelsPerCell = scale() * S.shown.info.res;
       ctx.imageSmoothingEnabled = pixelsPerCell < 1.5; // show true pixels once zoomed in
       ctx.drawImage(S.shown.img, ax, ay, bx - ax, by - ay);
     }
@@ -383,13 +390,14 @@ kbd { font: inherit; color: var(--fg); }
     }
     $("date").textContent = scene.datetime.slice(0, 10);
     $("time").textContent = `${scene.datetime.slice(11, 16)} UTC`;
+    const name = imageName(scene), info = scene.images[name];
     const rows = [
       ["Sensor", `${scene.sensor} · L${scene.platform.split("_")[1]}`],
       ["Sun elevation", fmt(scene.sun, 1, "°")],
       ["Scene cloud", fmt(scene.cloud, 0, "%")],
       ["WRS path/row", `${Number(scene.path)}/${Number(scene.row)}`],
-      ["Shown band", `${scene.band} · ${scene.res} m`],
-      ["Valid in crop", `${Math.round(scene.valid * 100)}%`],
+      ["Shown", `${name === "rgb" ? scene.composite.join(", ") : name} · ${info.res} m`],
+      ["Valid in crop", `${Math.round(info.valid * 100)}%`],
     ];
     const facts = $("facts");
     facts.textContent = "";
@@ -399,6 +407,8 @@ kbd { font: inherit; color: var(--fg); }
       facts.append(dt, dd);
     });
     const pills = [];
+    if (name === "rgb" && !scene.composite.includes("blue")) pills.push(["False colour", "warn"]);
+    if (S.band === "rgb" && name !== "rgb") pills.push([`No RGB: ${name} only`, "warn"]);
     if (scene.sun !== null && scene.sun <= 0) pills.push(["Night", "warn"]);
     if (scene.level === "L1GS") pills.push(["Not terrain-corrected", "warn"]);
     if (scene.sensor === "ETM+" && scene.date.getTime() > SLC_FAILURE) pills.push(["SLC-off stripes", "warn"]);
@@ -439,10 +449,12 @@ kbd { font: inherit; color: var(--fg); }
     const cloud = Number($("cloud").value), sun = Number($("sun").value);
     const months = $("season").value === "all" ? null : new Set($("season").value.split(",").map(Number));
     const path = $("path").value, onlyFlag = $("onlyflag").checked;
+    S.band = $("band").value;
     $("cloudval").textContent = cloud === 100 ? "any" : `${cloud}%`;
     $("sunval").textContent = `${sun}°`;
     S.list = S.all.filter((s) =>
       S.sensors.has(s.sensor)
+      && (S.band === "rgb" || s.images[S.band]) // a single band never switches product partway through a run
       && (cloud === 100 || (s.cloud !== null && s.cloud <= cloud))
       && (s.sun === null || s.sun > sun)
       && (!months || months.has(s.date.getUTCMonth() + 1))
@@ -473,7 +485,7 @@ kbd { font: inherit; color: var(--fg); }
   function resetFilters(openAll) {
     S.sensors = new Set(SENSOR_ORDER);
     document.querySelectorAll("#sensors .btn").forEach((b) => b.setAttribute("aria-pressed", "true"));
-    $("cloud").value = 100; $("sun").value = openAll ? -30 : 0; $("season").value = "all"; $("path").value = "all"; $("onlyflag").checked = false;
+    $("band").value = "rgb"; $("cloud").value = 100; $("sun").value = openAll ? -30 : 0; $("season").value = "all"; $("path").value = "all"; $("onlyflag").checked = false;
   }
 
   /* ---------- playback ---------- */
@@ -498,6 +510,11 @@ kbd { font: inherit; color: var(--fg); }
     requestAnimationFrame(tick);
   }
   function step(delta) { stop(); show(S.pos + delta); }
+  function stepBand(delta) {
+    const menu = $("band"), n = menu.options.length;
+    menu.selectedIndex = (menu.selectedIndex + delta + n) % n;
+    refilter();
+  }
   function toggleFlag() {
     const scene = S.list[S.pos];
     if (!scene) return;
@@ -528,7 +545,7 @@ kbd { font: inherit; color: var(--fg); }
     $("flag").onclick = toggleFlag;
     $("position").oninput = (e) => { stop(); show(Number(e.target.value)); };
     $("position").onchange = (e) => e.target.blur();
-    for (const id of ["cloud", "sun", "season", "path", "onlyflag"]) {
+    for (const id of ["band", "cloud", "sun", "season", "path", "onlyflag"]) {
       $(id).addEventListener("input", refilter);
       $(id).addEventListener("change", (e) => e.target.blur());
     }
@@ -544,7 +561,10 @@ kbd { font: inherit; color: var(--fg); }
     };
     $("copypath").onclick = (e) => {
       const s = S.list[S.pos];
-      if (s) copyText(`/vsicurl/${new URL(`${s.id}/${s.id}_${s.band}.tif`, location.href.split("#")[0])}`, e.target, "Copied");
+      if (!s) return;
+      const name = imageName(s), base = location.href.split("#")[0];
+      const paths = (name === "rgb" ? s.composite : [name]).map((band) => `/vsicurl/${new URL(`${s.id}/${s.id}_${band}.tif`, base)}`);
+      copyText(paths.join("\n"), e.target, "Copied");
     };
 
     window.addEventListener("keydown", (e) => {
@@ -554,7 +574,7 @@ kbd { font: inherit; color: var(--fg); }
       const keys = {
         ArrowRight: () => step(jump), ArrowLeft: () => step(-jump),
         Home: () => { stop(); show(0); }, End: () => { stop(); show(S.list.length - 1); },
-        " ": togglePlay, f: toggleFlag, o: () => { S.outline = !S.outline; draw(); }, 0: fit,
+        " ": togglePlay, f: toggleFlag, b: () => stepBand(1), B: () => stepBand(-1), o: () => { S.outline = !S.outline; draw(); }, 0: fit,
       };
       const act = keys[e.key];
       if (act) { e.preventDefault(); act(); }
@@ -615,7 +635,7 @@ kbd { font: inherit; color: var(--fg); }
       return;
     }
     S.index = index;
-    S.all = index.scenes.filter((s) => s.file).map((s) => ({ ...s, date: new Date(s.datetime), sensor: SENSORS[s.id[1]] || "OLI" }));
+    S.all = index.scenes.filter((s) => Object.keys(s.images).length).map((s) => ({ ...s, date: new Date(s.datetime), sensor: SENSORS[s.id[1]] || "OLI" }));
     S.all.sort((a, b) => a.date - b.date);
     S.all.forEach((s) => { s.coords = seasonCoords(s); });
     S.byId = new Map(S.all.map((s) => [s.id, s]));
@@ -640,6 +660,16 @@ kbd { font: inherit; color: var(--fg); }
         refilter();
       };
       sensors.append(b);
+    });
+    const counts = new Map();
+    S.all.forEach((s) => Object.keys(s.images).forEach((name) => counts.set(name, (counts.get(name) || 0) + 1)));
+    const rank = (name) => { const i = BAND_ORDER.indexOf(name); return i < 0 ? BAND_ORDER.length : i; };
+    const bandNames = [...counts.keys()].filter((name) => name !== "rgb").sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
+    const bandSel = $("band");
+    [["rgb", `RGB (${counts.get("rgb") || 0})`], ...bandNames.map((name) => [name, `${name} (${counts.get(name)})`])].forEach(([value, label]) => {
+      const o = document.createElement("option");
+      o.value = value; o.textContent = label;
+      bandSel.append(o);
     });
     const paths = new Map();
     S.all.forEach((s) => paths.set(s.path, (paths.get(s.path) || 0) + 1));

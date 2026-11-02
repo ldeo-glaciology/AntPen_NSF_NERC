@@ -6,7 +6,7 @@
 <style>html,body{margin:0}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{-webkit-text-size-adjust:100%}*{box-sizing:border-box}</style>
 </head>
 <body>
-<title>Flask Landsat Viewer</title>
+<title>Landsat Viewer</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=Barlow:wght@400;500&display=swap">
@@ -183,13 +183,25 @@ kbd { font: inherit; color: var(--fg); }
   const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
   const SENSORS = { M: "MSS", T: "TM", E: "ETM+", C: "OLI", O: "OLI" };
   const SENSOR_ORDER = ["MSS", "TM", "ETM+", "OLI"];
+  // Landsat 8 and 9 thermal-only scenes (LT08) share the TM letter, so they go by platform, with the OLI scenes
+  const sensorOf = (id) => (Number(id.slice(2, 4)) >= 8 ? "OLI" : SENSORS[id[1]]);
   const PRELOAD_AHEAD = 14, PRELOAD_BEHIND = 4, KEEP_RANGE = 40, MAX_LOADS = 6;
   const SLC_FAILURE = Date.UTC(2003, 4, 31);
   const BAND_ORDER = ["coastal", "blue", "green", "red", "nir08", "nir09", "swir16", "swir22", "pan", "cirrus", "lwir", "lwir_high", "lwir11", "lwir12"];
 
+  // Every site's page shares one origin in the bucket, so flags are kept per page. Flags saved before there were
+  // other sites move to the first page that opens.
+  const FLAGS_KEY = `landsat-flags:${location.pathname}`, OLD_FLAGS_KEY = "flask-landsat-flags";
   const store = {
-    get() { try { return JSON.parse(localStorage.getItem("flask-landsat-flags") || "[]"); } catch { return []; } },
-    set(ids) { try { localStorage.setItem("flask-landsat-flags", JSON.stringify(ids)); } catch { /* flags last for this visit */ } },
+    get() {
+      try {
+        const old = localStorage.getItem(OLD_FLAGS_KEY);
+        if (old !== null && localStorage.getItem(FLAGS_KEY) === null) localStorage.setItem(FLAGS_KEY, old);
+        localStorage.removeItem(OLD_FLAGS_KEY);
+        return JSON.parse(localStorage.getItem(FLAGS_KEY) || "[]");
+      } catch { return []; }
+    },
+    set(ids) { try { localStorage.setItem(FLAGS_KEY, JSON.stringify(ids)); } catch { /* flags last for this visit */ } },
   };
 
   const S = {
@@ -834,7 +846,7 @@ kbd { font: inherit; color: var(--fg); }
       return;
     }
     S.index = index;
-    S.all = index.scenes.filter((s) => Object.keys(s.images).length).map((s) => ({ ...s, date: new Date(s.datetime), sensor: SENSORS[s.id[1]] || "OLI" }));
+    S.all = index.scenes.filter((s) => Object.keys(s.images).length).map((s) => ({ ...s, date: new Date(s.datetime), sensor: sensorOf(s.id) }));
     S.all.sort((a, b) => a.date - b.date);
     S.all.forEach((s) => { s.coords = seasonCoords(s); });
     S.byId = new Map(S.all.map((s) => [s.id, s]));
@@ -842,6 +854,7 @@ kbd { font: inherit; color: var(--fg); }
     S.lastSeason = Math.max(...S.all.map((s) => s.coords.season));
 
     $("title").textContent = index.title;
+    document.title = index.title;
     if (index.preview_note) { $("note").hidden = false; $("note").textContent = index.preview_note; }
 
     const sensors = $("sensors");

@@ -1,0 +1,39 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Flask Glacier",
+    "source": "flask_region.shp (remote sensing/worldview/strips/region_shp), EPSG:3031"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -62.4209885148373,
+       -65.71563191910823
+      ],
+      [
+       -62.41245831731256,
+       -65.84458747377494
+      ],
+      [
+       -62.83495130418201,
+       -65.8503095636956
+      ],
+      [
+       -62.834628554033834,
+       -65.70107715537245
+      ],
+      [
+       -62.4209885148373,
+       -65.71563191910823
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
